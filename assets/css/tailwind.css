@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn {
+        @apply text-black font-semibold text-sm desktop:text-xl
+        hover:text-lg
+    }
+
+    .img {
+        @apply w-full h-full rounded-2xl
+        shadow-md
+    }
+    
+    .content {
+        @apply text-transparent font-bold text-4xl hover:text-white 
+        grid place-content-center
+        desktop:w-[400px] desktop:h-[350px] 
+        laptop:w-[350px] laptop:h-[320px]
+        tablet:text-2xl      
+    }
+}    
