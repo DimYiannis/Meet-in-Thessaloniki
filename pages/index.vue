@@ -15,24 +15,22 @@
             it all.</p>    
         </div>
 
-        <div class="grid desktop:row-span-2">
-            
-            <a href="">
+        <div class="desktop:row-span-2">
+            <NuxtLink to="">
                 <Item
                 class="bg-sights">
                     <template v-slot:title>
                         <h3 class="text-transparent font-bold 
                             text-4xl hover:text-white 
                             grid place-content-center
-                            desktop:w-[620px] desktop:h-[400px] 
-                            laptop:w-[450px] laptop:h-[240px]
-                            tablet:w-[360px] tablet:h-[230px]
+                            desktop:w-[620px] desktop:h-[200px] 
+                            laptop:w-[900px] laptop:h-[240px]
+                            tablet:w-[400px] tablet:h-[230px]
                             w-[680px] h-[130px]">
-                            Sights to see</h3>
+                           Sights To See</h3>
                     </template>
                 </Item>
-            </a>
-        
+            </NuxtLink>
         </div>
     
     
