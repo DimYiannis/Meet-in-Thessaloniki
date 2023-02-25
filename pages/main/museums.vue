@@ -2,23 +2,21 @@
     <div class="grid w-screen h-screen p-5 pb-2
     grid-cols-1 grid-rows-5 gap-4
     tablet:grid-cols-2 tablet:grid-rows-3">
-        
-        <div class="grid tablet:col-span-2 laptop:col-span-1 text-center ">
-            <h1 class="font-bold text-2xl mobile:text-4xl 
-            tablet:text-7xl laptop:text-7xl">
-            Thessaloniki</h1>
-            <p class="relative font-extralight text:lg 
-            mobile:text-xl tablet:text-2xl
-            decoration-4 ">
-            Home to fabulous food, rich history and 
-            stunning scenery - Greece's most vibrant city has 
-            it all.</p>    
-        </div>
 
-        <div class="desktop:row-span-2">
+    <div class="grid text-center ">
+        
+        <p class="relative font-extralight text:lg 
+        mobile:text-xl tablet:text-2xl
+        decoration-4 ">
+        Home to fabulous food, rich history and 
+        stunning scenery - Greece's most vibrant city has 
+        it all.</p>    
+    </div>
+        
+    <div class="">
             <NuxtLink to="">
                 <Item
-                class="bg-sights">
+                class="bg-arxlgko">
                     <template v-slot:title>
                         <h3 class="text-transparent font-bold 
                             text-4xl hover:text-white 
@@ -27,17 +25,35 @@
                             laptop:w-[900px] laptop:h-[240px]
                             tablet:w-[400px] tablet:h-[230px]
                             w-[680px] h-[130px]">
-                           Sights To See</h3>
+                            Archaeological Museum of Thessaloniki </h3>
+                    </template>
+                </Item>
+            </NuxtLink>
+        </div>
+
+        <div class="">
+            <NuxtLink to="">
+                <Item
+                class="bg-byz">
+                    <template v-slot:title>
+                        <h3 class="text-transparent font-bold 
+                            text-4xl hover:text-white 
+                            grid place-content-center
+                            desktop:w-[620px] desktop:h-[200px] 
+                            laptop:w-[900px] laptop:h-[240px]
+                            tablet:w-[400px] tablet:h-[230px]
+                            w-[680px] h-[130px]">
+                            Museum of Byzantine Culture</h3>
                     </template>
                 </Item>
             </NuxtLink>
         </div>
     
     
-        <div class="laptop:col-span-2 desktop:col-span-1">
+        <div class="">
             <NuxtLink to="/main/museums">
                 <Item
-                class="bg-museum">
+                class="bg-noesis">
                     <template v-slot:title>
                         <h3 class="text-transparent font-bold 
                             text-4xl hover:text-white 
@@ -46,7 +62,7 @@
                             laptop:w-[900px] laptop:h-[240px]
                             tablet:w-[400px] tablet:h-[230px]
                             w-[680px] h-[130px]">
-                            Museums to visit</h3>
+                            Noesis - Science Center and Technology Museum</h3>
                     </template>
                 </Item>
             </NuxtLink>
@@ -55,9 +71,9 @@
         <div class="">   
             <a href="">
                 <Item
-                class="bg-places">
+                class="bg-tel">
                     <template v-slot:title>
-                        <h3 class="content">Places to wander</h3>
+                        <h3 class="content">Teloglion Foundation of Art A.U.Th.</h3>
                     </template>
                 </Item>
             </a>
@@ -66,9 +82,9 @@
         <div class="">
             <a href="">
                 <Item
-                class="bg-history">
+                class="bg-romag">
                     <template v-slot:title>
-                        <h3 class="content">Brief History</h3>
+                        <h3 class="content">Roman Forum Museum (Ancient Agora)</h3>
                     </template>
                 </Item>
             </a>
@@ -78,5 +94,7 @@
 </template>
 
 <script>
-
+definePageMeta({
+    layout:  "details",
+});
 </script>

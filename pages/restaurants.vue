@@ -6,7 +6,7 @@
         <div class="grid tablet:col-span-2 laptop:col-span-1 text-center ">
             <h1 class="font-bold text-2xl mobile:text-4xl 
             tablet:text-7xl laptop:text-7xl">
-            Thessaloniki</h1>
+            Thermopolia</h1>
             <p class="relative font-extralight text:lg 
             mobile:text-xl tablet:text-2xl
             decoration-4 ">
