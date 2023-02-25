@@ -8,8 +8,6 @@
 </template>
 
 <script setup>
-definePageMeta({
-    layout:  "shops",
-});
+
 
 </script>

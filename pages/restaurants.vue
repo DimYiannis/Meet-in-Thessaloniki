@@ -5,8 +5,6 @@
 </template>
 
 <script>
-definePageMeta({
-    layout:"restaurants"
-})
+
 
 </script>

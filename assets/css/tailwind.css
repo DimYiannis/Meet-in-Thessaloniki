@@ -17,8 +17,11 @@
     .content {
         @apply text-transparent font-bold text-4xl hover:text-white 
         grid place-content-center
-        desktop:w-[400px] desktop:h-[350px] 
-        laptop:w-[350px] laptop:h-[320px]
-        tablet:text-2xl      
+        desktop:w-[600px] desktop:h-[240px] 
+        laptop:w-[450px] laptop:h-[240px]
+        tablet:w-[420px] tablet:h-[230px]
+        w-[680px] h-[130px]
+         
+        tablet:text-4xl      
     }
 }    
