@@ -10,9 +10,10 @@
             <p class="relative font-extralight text:lg 
             mobile:text-xl tablet:text-2xl
             decoration-4 ">
-            Home to fabulous food, rich history and 
-            stunning scenery - Greece's most vibrant city has 
-            it all.</p>    
+            Greece's first Unesco city of gastronomy, 
+            famed for perfect pastries, spicy meatballs, 
+            wine and local specialities reflecting 
+            a rich cultural heritage.</p>    
         </div>
 
         <div class="desktop:row-span-2">
@@ -28,7 +29,7 @@
                             laptop:w-[450px] laptop:h-[240px]
                             tablet:w-[360px] tablet:h-[230px]
                             w-[680px] h-[130px]">
-                            Traditional</h3>
+                            Ethnic</h3>
                     </template>
                 </Item>
             </a>
@@ -59,7 +60,7 @@
                 <Item
                 class="bg-fish">
                     <template v-slot:title>
-                        <h3 class="content">Fish</h3>
+                        <h3 class="content">Fish & Seafood</h3>
                     </template>
                 </Item>
             </a>

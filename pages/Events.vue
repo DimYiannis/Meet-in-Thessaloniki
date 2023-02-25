@@ -6,13 +6,13 @@
         <div class="grid tablet:col-span-2 laptop:col-span-1 text-center ">
             <h1 class="font-bold text-2xl mobile:text-4xl 
             tablet:text-7xl laptop:text-7xl">
-            Thessaloniki</h1>
+            Dromena</h1>
             <p class="relative font-extralight text:lg 
             mobile:text-xl tablet:text-2xl
             decoration-4 ">
-            Home to fabulous food, rich history and 
-            stunning scenery - Greece's most vibrant city has 
-            it all.</p>    
+            There is a variety of choices to spend creatively 
+            your time. Meet new people and share 
+            unforgettable experiences.</p>    
         </div>
 
         <div class="desktop:row-span-3">
