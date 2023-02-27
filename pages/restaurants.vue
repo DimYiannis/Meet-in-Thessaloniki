@@ -28,7 +28,7 @@
                             desktop:w-[620px] desktop:h-[400px] 
                             laptop:w-[450px] laptop:h-[240px]
                             tablet:w-[360px] tablet:h-[230px]
-                            w-[680px] h-[130px]">
+                            h-[130px]">
                             Ethnic</h3>
                     </template>
                 </Item>
@@ -48,7 +48,7 @@
                             desktop:w-[620px] desktop:h-[200px] 
                             laptop:w-[900px] laptop:h-[240px]
                             tablet:w-[400px] tablet:h-[230px]
-                            w-[680px] h-[130px]">
+                            h-[130px]">
                             Gourmet</h3>
                     </template>
                 </Item>

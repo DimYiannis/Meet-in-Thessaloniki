@@ -20,8 +20,7 @@
         desktop:w-[600px] desktop:h-[240px] 
         laptop:w-[450px] laptop:h-[240px]
         tablet:w-[420px] tablet:h-[230px]
-        w-[680px] h-[130px]
-         
+        w-full h-[130px]
         tablet:text-4xl      
     }
 }    

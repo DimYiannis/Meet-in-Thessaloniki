@@ -8,7 +8,8 @@
          hover:bg-white/30 rounded-2xl w-full h-full 
          grid place-content-center">
             <slot name="title">
-                {{ title }}</slot>
+                {{ title }}
+            </slot>
         </div>
         
         
