@@ -1,5 +1,5 @@
 <template>
-    <div class="grid w-screen h-screen p-5 pb-2
+    <div class="grid w-[100vw] h-screen pb-2
     grid-cols-1 grid-rows-5 gap-4
     tablet:grid-cols-2 tablet:grid-rows-3">
         
@@ -15,16 +15,19 @@
             it all.</p>    
         </div>
 
-        <div class="desktop:row-span-2">
+        <div class="desktop:row-span-2"
+        @mouseover="showTitle=true"
+        @mouseleave="showTitle=false">
             <NuxtLink to="">
-                <Item
+                <Item v-bind="showTitle"
+                
                 class="bg-sights">
                     <template v-slot:title>
-                        <h3 class="text-transparent font-bold 
-                            text-4xl hover:text-white 
+                        <h3 v-show="showTitle" class=" font-bold 
+                            text-4xl text-white 
                             grid place-content-center
-                            desktop:w-[620px] desktop:h-[200px] 
-                            laptop:w-[900px] laptop:h-[240px]
+                            desktop:w-[600px] desktop:h-[200px] 
+                            laptop:w-[450px] laptop:h-[240px]
                             tablet:w-[400px] tablet:h-[230px]
                             h-[130px]">
                            Sights To See</h3>
@@ -54,7 +57,7 @@
 
         <div class="">   
             <a href="">
-                <Item
+                <Item 
                 class="bg-places">
                     <template v-slot:title>
                         <h3 class="content">Places to wander</h3>
@@ -78,5 +81,12 @@
 </template>
 
 <script>
-
+export default {
+    data() {
+        return { 
+            showTitle: false
+        }
+    },
+    
+}
 </script>

@@ -1,17 +1,25 @@
 <template>
     
-    <div class="flex bg-[#313131] h-[60vh]">
+    <div class="flex h-[70vh] border-[#76b1ec] mx-5">
         
         <div class="flex w-2/3 bg-[#aeb5b6] ">
-            
-            <div class="w-1/3 grid gap-5  
+
+            <div class="w-1/3 grid gap-3  
             place-content-center h-full">
                 
-                <div class="place-items-center grid
-                hover:scale-125 duration-500">
+                <div class="place-items-center grid 
+                hover:scale-110 duration-500">
                     <slot name="img">
                         {{ img }}
                     </slot>
+
+                </div>
+
+                <div class="text-gray-800 font-extralight text-2xl 
+                text-center bottom-0 relative ">
+                   <slot name="official">
+                        {{ official }}
+                    </slot> 
                 </div>
                 
                 <div class="text-gray-800 font-extralight text-2xl 
@@ -24,7 +32,7 @@
                 
             </div>
             
-            <div class="info w-2/3 bg-[#2d2e3099] ">
+            <div class="w-2/3 bg-[#2d2e30d3] grid place-content-center ">
 
                 <slot name="info">
                     {{ info }}

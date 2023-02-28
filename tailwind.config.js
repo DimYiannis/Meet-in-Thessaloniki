@@ -20,6 +20,8 @@ module.exports = {
 
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
+
+      'lgdesk' : '1600px',
     },
     extend: {
       backgroundImage: {
