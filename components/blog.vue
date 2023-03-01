@@ -1,56 +1,51 @@
 <template>
     
-    <div class="flex h-[70vh] border-[#76b1ec] mx-5">
+    <div class="grid border-[#76b1ec] mx-5 
+    tablet:grid-cols-2 tablet:grid-rows-2 
+    laptop:grid-cols-3 laptop:grid-rows-none">
         
-        <div class="flex w-2/3 bg-[#aeb5b6] ">
+        
 
-            <div class="w-1/3 grid gap-3  
-            place-content-center h-full">
+        <div class=" grid gap-3  
+        place-content-center h-full bg-[#aeb5b6]">
                 
-                <div class="place-items-center grid 
-                hover:scale-110 duration-500">
-                    <slot name="img">
-                        {{ img }}
-                    </slot>
-
-                </div>
-
-                <div class="text-gray-800 font-extralight text-2xl 
-                text-center bottom-0 relative ">
-                   <slot name="official">
-                        {{ official }}
-                    </slot> 
-                </div>
-                
-                <div class="text-gray-800 font-extralight text-2xl 
-                text-center bottom-0 relative ">
-                   <slot name="name">
-                        {{ name }}
-                    </slot> 
-                </div>
-                
-                
-            </div>
-            
-            <div class="w-2/3 bg-[#2d2e30d3] grid place-content-center ">
-
-                <slot name="info">
-                    {{ info }}
+            <div class="place-items-center grid 
+            hover:scale-110 duration-500 mt-5">
+                <slot name="img">
+                    {{ img }}
                 </slot>
-                
-                
-            
-            </div>
 
+            </div>
+                
+            <div class="text-gray-800 font-extralight text-2xl 
+            text-center bottom-0 relative z-10 ">
+               <slot name="name">
+                    {{ name }}
+                </slot> 
+            </div>
+                
+                
         </div>
+            
+        <div class=" bg-[#2d2e30d3] grid place-content-center 
+        mobile:h-[400px] tablet:h-[500px]">
+
+            <slot name="info">
+                {{ info }}
+            </slot>
+                
+        </div>
+
         
-        <div class="map w-1/3 grid gap-5 place-content-center">
+        
+        <div class="map grid gap-5 place-content-center 
+        tablet:col-span-2 laptop:col-span-1 ">
         
            
-               <slot name="location">
-                   {{ location }}
-               </slot>
-           
+           <slot name="location">
+               {{ location }}
+           </slot>
+       
         </div>
 
     </div>
@@ -58,13 +53,11 @@
 </template>
 
 <script>
-import GoogleMaps from './GoogleMaps.vue';
-
 export default {
     data() {
         return {};
     },
-    components: { GoogleMaps }
+   
 }
 
 

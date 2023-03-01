@@ -18,7 +18,7 @@
         <div class="desktop:row-span-2"
         @mouseover="showTitle=true"
         @mouseleave="showTitle=false">
-            <NuxtLink to="">
+            <NuxtLink to="/main/sights">
                 <Item v-bind="showTitle"
                 
                 class="bg-sights">
@@ -56,25 +56,25 @@
         </div>
 
         <div class="">   
-            <a href="">
+            <NuxtLink to="/main/places">
                 <Item 
                 class="bg-places">
                     <template v-slot:title>
                         <h3 class="content">Places to wander</h3>
                     </template>
                 </Item>
-            </a>
+            </NuxtLink>
         </div>
 
         <div class="">
-            <a href="">
+            <NuxtLink to="/main/history">
                 <Item
                 class="bg-history">
                     <template v-slot:title>
                         <h3 class="content">Brief History</h3>
                     </template>
                 </Item>
-            </a>
+            </NuxtLink>
         </div> 
 
     </div>    
