@@ -4,9 +4,9 @@
                 class="grid gap-5">
 
         <template #img>
-            <div class="left-0 w-screen tablet:h-[350px]">
+            <div class="left-0 w-screen tablet:h-[500px]">
 
-                <img class="object-cover w-screen tablet:h-[350px]" :src="sight.img"/>
+                <img class="object-cover w-screen tablet:h-[500px]" :src="sight.img"/>
             
 
                 <span class="flex rounded-full z-10 relative bottom-20 left-5 

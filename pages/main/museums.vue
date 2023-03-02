@@ -4,16 +4,16 @@
      class="grid gap-5">
 
      <template #img>
-         <div class="left-0 w-screen tablet:h-[350px]">
+         <div class="left-0 w-screen tablet:h-[500px]">
 
-             <img class="object-cover w-screen tablet:h-[350px]" :src="museum.img"/>
+             <img class="object-cover w-screen tablet:h-[500px]" :src="museum.img"/>
          
 
              <span class="flex rounded-full z-10 relative bottom-20 left-5 
              bg-[#383836] w-fit px-5 opacity-70 
              hover:opacity-90 hover:scale-105 duration-500">
                  <div class="relative self-center h-fit text-white">
-                     <h1 class="mb-6 text-xs mobile:text-base tablet:text-2xl laptop:text-4xl ">{{sight.name}}</h1>
+                     <h1 class="mb-6 text-xs mobile:text-base tablet:text-2xl laptop:text-4xl ">{{museum.name}}</h1>
                      <h2 class="absolute top-6 mobile:top-8 laptop:top-10 laptop:text-base
                      tablet:text-sm text-xs">Thessaloniki, GR</h2>              
                  </div> 
@@ -63,7 +63,7 @@ export default {
          name: 'Archaeological Museum of Thessaloniki',
          site: 'https://www.amth.gr/en',
          info: 'The Archaeological Museum of Thessaloniki is one of the largest museums in Greece and the central museum of northern Greece.The story of the Archaeological Museum of Thessaloniki follows the course of history of the modern city of Thessaloniki. The Museum collections include numerous artefacts dating from the Prehistoric era to the end of antiquity. They come from excavations conducted throughout Macedonia since 1912, along with handed-in antiquities.',
-         img: "https://www.thessalonikiguide.gr/wp-content/uploads/2016/06/arxaiologiko-mouseio-2019-2.jpg",
+         img: "https://www.greekboston.com/wp-content/uploads/2019/09/thessaloniki-archaeological-museum.jpg",
          location: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d387603.1701206483!2d22.954861!3d40.626579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a8385355da9789%3A0x4f51568587526589!2zzpHPgc-HzrHOuc6_zrvOv86zzrnOus-MIM6czr_Phc-DzrXOr86_IM6YzrXPg8-DzrHOu86_zr3Or866zrfPgg!5e0!3m2!1sel!2sgr!4v1677591630552!5m2!1sel!2sgr"
        },
        {

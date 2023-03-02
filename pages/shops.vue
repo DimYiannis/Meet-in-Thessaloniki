@@ -15,7 +15,7 @@
 
         <div class="desktop:row-span-3">
             
-            <a href="">
+            <NuxtLink to="/market/">
                 <Item
                 class="bg-mall">
                     <template v-slot:title>
@@ -29,13 +29,13 @@
                             Malls</h3>
                     </template>
                 </Item>
-            </a>
+            </NuxtLink>
         
         </div>
     
     
         <div class="">
-            <NuxtLink to="/museums">
+            <NuxtLink to="/market/local">
                 <Item
                 class="bg-local">
                     <template v-slot:title>
@@ -53,14 +53,14 @@
         </div>
 
         <div class="tablet:col-span-2 laptop:col-span-1">   
-            <a href="">
+            <NuxtLink to="/market/">
                 <Item
                 class="bg-streets">
                     <template v-slot:title>
                         <h3 class="content">Shopping Streets</h3>
                     </template>
                 </Item>
-            </a>
+            </NuxtLink>
         </div>
 
     </div>    

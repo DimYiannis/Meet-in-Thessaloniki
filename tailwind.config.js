@@ -46,14 +46,7 @@ module.exports = {
         'night': "url('https://i0.wp.com/thelenscapchronicles.com/wp-content/uploads/2021/10/IMG_7011.jpg?resize=768%2C576&ssl=1')",
         'concerts': "url('https://www.culturenow.gr/wp-content/uploads/2018/05/Festival-Dasous-Theatro-Dasous.jpg')",
         'outdoor': "url('https://www.peak.co.uk/wp-content/uploads/2019/02/bigstock-Mountain-biking-woman-and-man-262645285-1080x675.jpg')",
-        'arxlgko': "url('https://www.thessalonikiguide.gr/wp-content/uploads/2016/06/arxaiologiko-mouseio-2019-2.jpg')",
-        'byz': "url('https://www.thessalonikitourism.gr/images/2019/02/01/byzantineculture1.png')",
-        'noesis': "url('https://www.gnoristetinellada.gr/images/2017/06/04/kentro-diadosis-epistimon-1.jpg')",
-        'tel': "url('https://pagoniconstruction.gr/wp-content/uploads/2019/12/telloglio-INSIDE.jpg')",
-        'romag': "url('https://cityportal.gr/wp-content/uploads/2022/10/%CE%BC%CE%BF%CF%85%CF%83.jpg')",
-        '': "url('')",
-        '': "url('')",
-        '': "url('')",
+        
       }
     },
   },
