@@ -15,7 +15,7 @@
 
         <div class="desktop:row-span-3">
             
-            <NuxtLink to="/market/">
+            <NuxtLink to="/market/mall">
                 <Item
                 class="bg-mall">
                     <template v-slot:title>
@@ -53,7 +53,7 @@
         </div>
 
         <div class="tablet:col-span-2 laptop:col-span-1">   
-            <NuxtLink to="/market/">
+            <NuxtLink to="/market/streets">
                 <Item
                 class="bg-streets">
                     <template v-slot:title>
