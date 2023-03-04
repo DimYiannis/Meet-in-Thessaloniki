@@ -4,7 +4,7 @@
 
 
 @layer components {
-    .btn {
+    .btnnav {
         @apply text-black font-semibold text-sm desktop:text-xl
         hover:text-lg
     }
@@ -23,5 +23,4 @@
         w-full h-[130px]
         tablet:text-4xl      
     }
-
 }

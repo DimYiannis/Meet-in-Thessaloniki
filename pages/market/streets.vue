@@ -3,7 +3,7 @@
 
 <div class="text-center text-white 
  pt-4 px-2 text-3xl font-semibold">
-   <p>Shopping Streets</p>
+   <p>#shopping_streets</p>
 </div>
 
         <Blog v-for="museum in museums" :key="museum.id" :id="museum.id" 
@@ -18,8 +18,7 @@
 
 
             <template #name>
-                <a :href=museum.site class="flex h-max">
-            {{museum.name}}</a>
+            {{museum.name}}
             </template>
 
             <template #info>

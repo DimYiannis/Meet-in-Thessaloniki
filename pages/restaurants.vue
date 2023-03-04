@@ -38,7 +38,7 @@
     
     
         <div class="laptop:col-span-2 desktop:col-span-1">
-            <NuxtLink to="/">
+            <NuxtLink to="/restaurants/gourmet">
                 <Item
                 class="bg-gourmet">
                     <template v-slot:title>

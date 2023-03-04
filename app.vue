@@ -1,13 +1,13 @@
 <template>
     <div>
-        <header class=" bg-[#f1f1f1] drop-shadow-2xl">
+        <header class=" bg-[#f1f1f1] drop-shadow-md ">
             <nav class="container mx-auto h-16 grid content-center">
                 <ul class="flex justify-between">
-                    <NuxtLink to="/" class="btn">Main</NuxtLink>
+                    <NuxtLink to="/" class="btnnav">Main</NuxtLink>
                     <li class="flex gap-4">
-                        <NuxtLink to="/shops" class="btn">Market</NuxtLink>
-                        <NuxtLink to="/restaurants" class="btn">Restaurants</NuxtLink>
-                        <NuxtLink to="/Events" class="btn">Events</NuxtLink>
+                        <NuxtLink to="/shops" class="btnnav">Market</NuxtLink>
+                        <NuxtLink to="/restaurants" class="btnnav">Restaurants</NuxtLink>
+                        <NuxtLink to="/Events" class="btnnav">Events</NuxtLink>
                     </li>
                 </ul> 
             </nav>    

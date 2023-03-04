@@ -1,5 +1,5 @@
 <template>
-    <layout/>
+    <slider/>
 </template>
 
 <script>
