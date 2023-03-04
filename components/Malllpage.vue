@@ -20,7 +20,7 @@
         <h1 class="font-semibold text-lg mobile:text-2xl tablet:text-4xl laptop:text-4xl container" >
           Mediterranean Cosmos Shopping Center.</h1>
                         
-          <swiper :pagination="true" :modules="modules" 
+          <swiper :pagination="{clickable: true,}" :modules="modules" 
           class="w-full 
           laptop:w-[450px] desktop:w-[650px] 
           h-[200px]">
@@ -64,7 +64,7 @@
         <h1 class="font-semibold text-lg mobile:text-2xl tablet:text-4xl">
           Mega Outlet Store</h1>
 
-        <swiper :pagination="true" :modules="modules" 
+        <swiper :pagination="{clickable: true,}" :modules="modules" 
         class="w-full 
           laptop:w-[450px] desktop:w-[650px] 
           h-[200px]">
@@ -118,7 +118,8 @@
         <h1 class="font-semibold text-lg mobile:text-2xl tablet:text-4xl">
           One Salonica Outlet Mall</h1>
 
-        <swiper :pagination="true" :modules="modules" 
+        <swiper :pagination="{clickable: true,}" 
+        :modules="modules" 
         class="w-full 
           laptop:w-[450px] desktop:w-[650px] 
           h-[200px]">
