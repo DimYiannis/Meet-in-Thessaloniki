@@ -84,7 +84,7 @@ export default {
           },
           {
             id: 'Agias Sofias Square',
-            name: 'Agias Sofias Square)',
+            name: 'Agias Sofias Square',
             info: "Agias Sofias Square is a bustling and vibrant area, with a wide range of shops, cafes, and restaurants located around the square. The square is named after the nearby Church of Saint Sophia, which is one of the oldest and most significant churches in the city.",
             img: 'https://parallaximag.gr/wp-content/uploads/2018/01/kokkino-spiti-17.jpg',
             location: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12111.365728768707!2d22.9459582!3d40.6333788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a8390738545549%3A0xc6238537f88f8b43!2zzqDOu86xz4TOtc6vzrEgzpHOs86vzrHPgiDOo86_z4bOr86xz4I!5e0!3m2!1sel!2sgr!4v1677746693698!5m2!1sel!2sgr",
