@@ -12,11 +12,12 @@
           <div class="place-items-center grid 
           hover:scale-105 duration-500">
             <swiper :pagination="{clickable: true,}" :modules="modules" 
-            class="w-full 
+            class="w-full
             laptop:w-[300px]  
             h-fit">
             
-              <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg">
+              <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl 
+               grid justify-center">
               
                 <slot name="img">
                     {{ img }}
@@ -25,13 +26,13 @@
               
               </swiper-slide>
 
-              <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg ">
+              <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl ">
                 <slot name="img2">
                     {{ img }}
                 </slot>
               </swiper-slide>
 
-              <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg ">
+              <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl ">
                 <slot name="img3">
                     {{ img }}
                 </slot>
