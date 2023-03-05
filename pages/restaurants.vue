@@ -18,7 +18,7 @@
 
         <div class="desktop:row-span-2">
             
-            <a href="">
+            <NuxtLink to="/restaurants/Ethnic" >
                 <Item
                 class="bg-traditional">
                     <template v-slot:title>
@@ -32,7 +32,7 @@
                             Ethnic</h3>
                     </template>
                 </Item>
-            </a>
+            </NuxtLink>
         
         </div>
     
@@ -56,25 +56,25 @@
         </div>
 
         <div class="">   
-            <a href="">
+            <NuxtLink to="/restaurants/Seafood">
                 <Item
                 class="bg-fish">
                     <template v-slot:title>
                         <h3 class="content">Fish & Seafood</h3>
                     </template>
                 </Item>
-            </a>
+            </NuxtLink>
         </div>
 
         <div class="">
-            <a href="">
+            <NuxtLink to="/restaurants/Meat">
                 <Item
                 class="bg-meat">
                     <template v-slot:title>
                         <h3 class="content">Meat</h3>
                     </template>
                 </Item>
-            </a>
+            </NuxtLink>
         </div> 
 
     </div>    
