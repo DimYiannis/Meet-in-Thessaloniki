@@ -10,9 +10,10 @@
         :name="museum.name" :info="museum.info" >
             
             <template #img>
-                <img class="rounded-full w-[200px] h-[200px] 
+                <img class="rounded-full w-[200px] h-[200px]
+                mobile:w-[350px] 
                 tablet:w-[300px] tablet:h-[300px] 
-                lgdesk:w-[350px] lgdesk:h-[350px] object-cover " 
+                lgdesk:w-[350px] lgdesk:h-[350px] " 
                     :src="museum.img" />
             </template>
 
