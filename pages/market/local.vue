@@ -38,7 +38,7 @@
                        >Location</p>
 
                        <iframe :src="data.location" 
-                       class=" mobile:w-[400px] 
+                       class="w-[200px] mobile:w-[400px] 
                        tablet:w-[700px] laptop:w-[900px] laptop:h-[500px]
                        desktop:w-[1000px] lgdesk:w-[1200px] h-[400px]"
                            style="border:1;" allowfullscreen="" loading="lazy">
