@@ -1,5 +1,5 @@
 <template>
-    <div class="grid w-screen h-screen p-5 pb-2
+    <div class="grid w-[98vw] h-screen p-5 pb-2
     grid-cols-1 grid-rows-5 gap-4
     tablet:grid-cols-2 tablet:grid-rows-3">
         
@@ -67,11 +67,11 @@
         </div>
 
         <div class="">
-            <NuxtLink to="/restaurants/Meat">
+            <NuxtLink to="/restaurants/Steak">
                 <Item
                 class="bg-meat">
                     <template v-slot:title>
-                        <h3 class="content">Meat</h3>
+                        <h3 class="content">Steak</h3>
                     </template>
                 </Item>
             </NuxtLink>

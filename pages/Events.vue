@@ -1,5 +1,5 @@
 <template>
-    <div class="grid w-screen h-screen p-5 pb-2
+    <div class="grid w-[98vw] h-screen p-5 pb-2
     grid-cols-1 grid-rows-4 gap-4
     tablet:grid-cols-2 tablet:grid-rows-3 laptop:grid-rows-2">
         
@@ -15,9 +15,10 @@
             unforgettable experiences.</p>    
         </div>
 
+        <!--nightlife-->
         <div class="desktop:row-span-3">
             
-            <a href="">
+            <NuxtLink to="/Dromena/Nightlife">
                 <Item
                 class="bg-night">
                     <template v-slot:title>
@@ -31,13 +32,14 @@
                            Nightlife</h3>
                     </template>
                 </Item>
-            </a>
+            </NuxtLink>
         
         </div>
     
-    
+    <!--concerts-->
         <div class=" desktop:col-span-1">
-            <NuxtLink to="/museums">
+
+            <NuxtLink to="/Dromena/Concerts">
                 <Item
                 class="bg-concerts">
                     <template v-slot:title>
@@ -53,16 +55,17 @@
                 </Item>
             </NuxtLink>
         </div>
+        <!--Outdoor-->
+        <div class="tablet:col-span-2 laptop:col-span-1">
 
-        <div class="tablet:col-span-2 laptop:col-span-1">   
-            <a href="">
+            <NuxtLink to="/Dromena/Outdoor">
                 <Item
                 class="bg-outdoor">
                     <template v-slot:title>
                         <h3 class="content">Outdoor Activities</h3>
                     </template>
                 </Item>
-            </a>
+            </NuxtLink>
         </div>
 
     </div>    

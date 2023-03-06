@@ -1,5 +1,5 @@
 <template>
-    <div class="grid w-screen h-screen p-5 pb-2
+    <div class="grid w-[98vw] h-screen p-5 pb-2
     grid-cols-1 grid-rows-4 gap-4
     tablet:grid-cols-2 tablet:grid-rows-3 laptop:grid-rows-2">
         

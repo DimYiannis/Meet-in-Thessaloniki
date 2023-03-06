@@ -4,7 +4,7 @@
                class="grid gap-5">
 
        <template #img>
-           <div class="left-0 w-screen tablet:h-[500px]">
+           <div class="left-0 w-[98vw] tablet:h-[500px]">
 
                <img class="object-cover w-screen tablet:h-[500px]" :src="data.img"/>
            

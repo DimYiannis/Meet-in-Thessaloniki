@@ -1,9 +1,5 @@
 <template>
   
-  <div class="text-lg tablet:text-4xl font-semibold place-content-center flex p-5">
-      <h1>#thessaloniki_malls</h1>
-  </div>
-
   <div class="grid gap-10 p-5 w-[98vw]">
     <!--cosmos-->
     <div class="flex flex-col laptop:flex-row gap-4 w-fit ">
