@@ -12,10 +12,10 @@
              <span class="flex rounded-full z-10 relative bottom-20 left-5 
              bg-[#383836] w-fit px-5 opacity-70 
              hover:opacity-90 hover:scale-105 duration-500">
-                 <div class="relative self-center h-fit text-white">
-                     <h1 class="mb-6 text-xs mobile:text-base tablet:text-2xl laptop:text-4xl ">{{museum.name}}</h1>
+                 <div class="relative self-center h-fit text-white w-fit">
+                     <h1 class="mb-6 text-xs mobile:text-base tablet:text-2xl laptop:text-4xl w-max ">{{museum.name}}</h1>
                      <h2 class="absolute top-6 mobile:top-8 laptop:top-10 laptop:text-base
-                     tablet:text-sm text-xs">Thessaloniki, GR</h2>              
+                     tablet:text-sm text-xs w-max">Thessaloniki, GR</h2>              
                  </div> 
              </span>
                                                                                                                                                                                                   
@@ -38,7 +38,7 @@
                      >Location</p>
 
                      <iframe :src="museum.location" 
-                     class=" mobile:w-[400px] 
+                     class="w-[200px] mobile:w-[400px] 
                      tablet:w-[700px] laptop:w-[900px] laptop:h-[500px]
                      desktop:w-[1000px] lgdesk:w-[1200px] h-[400px]"
                          style="border:1;" allowfullscreen="" loading="lazy">
