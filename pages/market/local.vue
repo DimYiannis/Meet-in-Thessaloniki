@@ -15,7 +15,7 @@
                    <div class="relative self-center h-fit text-white">
                        <h1 class="mb-6 text-xs mobile:text-base tablet:text-2xl laptop:text-4xl ">{{data.name}}</h1>
                        <h2 class="absolute top-6 mobile:top-8 laptop:top-10 laptop:text-base
-                       tablet:text-sm text-xs">Thessaloniki, GR</h2>              
+                       tablet:text-sm text-xs w-max">Thessaloniki, GR</h2>              
                    </div> 
                </span>
                                                                                                                                                                                                     

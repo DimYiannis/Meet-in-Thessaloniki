@@ -12,10 +12,11 @@
                <span class="flex rounded-full z-10 relative bottom-20 left-5 
                bg-[#383836] w-fit px-5 opacity-70 
                hover:opacity-90 hover:scale-105 duration-500">
-                   <div class="relative self-center h-fit text-white">
-                       <h1 class="mb-6 text-xs mobile:text-base tablet:text-2xl laptop:text-4xl ">{{data.name}}</h1>
+                   <div class="relative self-center h-fit text-white w-fit">
+                       <h1 class="mb-6 text-lg tablet:text-2xl 
+                       laptop:text-4xl  w-max">{{data.name}}</h1>
                        <h2 class="absolute top-6 mobile:top-8 laptop:top-10 laptop:text-base
-                       tablet:text-sm text-xs">Thessaloniki, GR</h2>              
+                        text-xs w-max">Thessaloniki, GR</h2>              
                    </div> 
                </span>
                                                                                                                                                                                                     
@@ -73,8 +74,8 @@ export default {
            location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1513.8338893329508!2d22.937328297344955!3d40.63720802472713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a839a7042e68e3%3A0x74f86252719714ab!2zzpLOsc67zrHPic-Bzq_PhM6_z4UsIM6YzrXPg8-DzrHOu86_zr3Or866zrc!5e0!3m2!1sel!2sgr!4v1678103206235!5m2!1sel!2sgr",
          },
          {
-           id: 'Alexandrou Svolou Street',
-           name: ' Alexandrou Svolou Street',
+           id: ' Svolou Street',
+           name: '  Svolou Street',
            info: "Alexandrou Svolou is a neighborhood famous for its bars, as it counts quite a few good options along its length. There you will find several pubs and shops where you can enjoy a good beer with your loved ones.",
            img: 'https://parallaximag.gr/wp-content/uploads/2021/06/%CE%91%CE%BB%CE%B5%CE%BE%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%85-%CE%A3%CE%B2%CF%8E%CE%BB%CE%BF%CF%85-5.jpg',
            location:"https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d991.172057262772!2d22.947986230501332!3d40.63204253069654!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sel!2sgr!4v1678103834509!5m2!1sel!2sgr",
