@@ -1,14 +1,14 @@
 <template>
-    <div class="gridw-[95vw] p-5 tablet:w-[98vw] h-screen pb-2
+    <div class="grid w-[95vw] p-5 h-screen pb-2
     grid-cols-1 grid-rows-5 gap-4
     tablet:grid-cols-2 tablet:grid-rows-3">
         
-        <div class="grid tablet:col-span-2 laptop:col-span-1 text-center ">
-            <h1 class="font-bold text-2xl mobile:text-4xl 
+        <div class="grid tablet:col-span-2 laptop:col-span-1 text-center  ">
+            <h1 class="font-bold text-xl mobile:text-4xl 
             tablet:text-7xl laptop:text-6xl">
             Thermopolia</h1>
-            <p class="relative font-extralight text:lg 
-            mobile:text-xl tablet:text-2xl
+            <p class="relative font-extralight text-xs 
+            mobile:text-base tablet:text-2xl
             decoration-4 ">
             Greece's first Unesco city of gastronomy, 
             famed for perfect pastries, spicy meatballs, 
@@ -23,7 +23,7 @@
                 class="bg-traditional">
                     <template v-slot:title>
                         <h3 class="text-transparent font-bold 
-                        text-2xl tablet:text-4xl hover:text-white 
+                            text-2xl tablet:text-4xl hover:text-white 
                             grid place-content-center
                             desktop:w-[620px] desktop:h-[400px] 
                             laptop:w-[450px] laptop:h-[240px]
