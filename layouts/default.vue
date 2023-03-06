@@ -1,6 +1,6 @@
 <template>
-    <div class="text-black bg-[#f1f1f1]
-    h-screen w-screen">
+    <div class="text-black
+    h-screen w-[98vw]">
     <slot/>
        
 

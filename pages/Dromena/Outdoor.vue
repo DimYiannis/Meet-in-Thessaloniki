@@ -1,20 +1,20 @@
 <template>
   
     <div class="grid gap-10 p-5 w-[98vw]">
-      <!--cosmos-->
+      <!--Hike Seih Sou Forest-->
       <div class="flex flex-col laptop:flex-row gap-4 w-fit ">
         
         <!--pic-->
         <div class="laptop:w-1/2 flex place-content-center">
           <img class="rounded-md tablet:w-[750px] laptop:w-[580px] desktop:w-[580px] 
           lgdesk:w-[750px] tablet:h-[310px]"
-           src="https://1.bp.blogspot.com/-pJ1y8Bph4Zs/XPFO6YiTdWI/AAAAAAACA7I/HS-Wy9SXWnA3Bbnal3Gt7IEyJwVE5xOagCLcBGAs/s640/c53a9eb7f98bd9efe52407712806bfee_XL.jpg" >
+           src="https://urban-wanders.com/wp-content/uploads/2020/05/Hike-at-Seih-Sou-Forest-in-Thessaloniki-e1589654545419.jpg" >
         </div>
   
         <!--info-->
         <div class="pr-5 grid place-content-center">
           <h1 class="font-semibold text-lg mobile:text-2xl tablet:text-4xl laptop:text-4xl container" >
-            Mediterranean Cosmos Shopping Center.</h1>
+            Hike Seih Sou Forest</h1>
                           
             <swiper :pagination="{clickable: true,}" :modules="modules" 
             class="w-full 
@@ -23,9 +23,9 @@
               
               <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg ">
                 <p class="">
-                    The shopping center features over 200 stores, 
-                    including international and local brands, as well as a 
-                    variety of restaurants, cafes, and entertainment options. 
+                  There are excellent hiking trails in the Seih Sou Forest of Thessaloniki. 
+                  Not only are the panoramic views of the city unparalleled, the diversity 
+                  in hiking and trekking trails makes for an all-day excursion for anyone looking to get out in the open air.
                     
                 </p>
               </swiper-slide>
@@ -37,19 +37,17 @@
               </swiper-slide>
                   
               <swiper-slide>
-                <p class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg">
-                  Unique design and layout, Inspired by the Mediterranean Sea
-                   and Greek culture. Designed to resemble a Mediterranean village, 
-                   with colorful facades, winding streets, and charming courtyards 
-                   and squares.
-                </p>
+                <div>
+                  <img class="object-none object-bottom w-max h-max"
+                  src="https://www.larissanet.gr/wp-content/uploads/2022/03/202203211930235795.jpg" >
+                </div>
               </swiper-slide>
   
             </swiper>
           
   
       </div>
-        <!--Mega-->
+        <!--Thessaloniki Waterways-->
       </div>
   
       <div class="flex flex-col laptop:flex-row gap-4 w-fit">
@@ -58,7 +56,7 @@
         <div class="pr-5 grid place-content-center">
   
           <h1 class="font-semibold text-lg mobile:text-2xl tablet:text-4xl">
-            Mega Outlet Store</h1>
+            Thessaloniki Waterways</h1>
   
           <swiper :pagination="{clickable: true,}" :modules="modules" 
           class="w-full 
@@ -67,22 +65,14 @@
               
               <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg">
                 <p class="">
-                  The outlet features over 130 stores, offering a wide range of products including clothing, 
-                  shoes, accessories, sports equipment, home goods, and electronics. 
+                  Get onboard traditional boats "Thessaloniki waterways" and explore the sandy beaches of Peraia, 
+                  Neous Epivates and Aghia Triada.
                 </p>
               </swiper-slide>
                   
               <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg">
-                The stores at Mega Outlet are well-known brands, both international and local, 
-                and offer discounted prices compared to traditional retail stores.
-              </swiper-slide>
-  
-              <swiper-slide>
-                <p class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg">
-                  Easily accessible by car or public transportation, and located 
-                  near a number of other popular attractions in the city, including the 
-                  Mediterranean Cosmos Shopping Center and the Thessaloniki Concert Hall.
-                </p>
+                Get a view of the beautiful city of Thessaloniki while cruising with our boats. 
+                Enjoy ouzo and seafood in the picturesque taverns and restaurants of Peraia and Neous Epivates while watching the sunset
               </swiper-slide>
               
             </swiper>
@@ -93,26 +83,26 @@
         <div class="laptop:w-1/2 order-first laptop:order-last flex place-content-center">
           <img class="rounded-md tablet:w-[750px] laptop:w-[580px] desktop:w-[580px] 
           lgdesk:w-[750px] tablet:h-[310px]"
-          src="https://www.climapro.gr/wp-content/uploads/2014/01/Megaoutlet-1-1020x683.jpg">
+          src="https://news.gtp.gr/wp-content/uploads/2018/05/Karavakia_Leykos-Pyrgos-Konstantis.jpg">
         </div>
   
       </div>
   
-      <!--One salonica-->
+      <!--ADVENTURE PAINTBALL -->
       <div class="flex flex-col laptop:flex-row gap-4 w-fit">
         
         <!--pic-->
         <div class="laptop:w-1/2 flex place-content-center">
           <img class="rounded-md tablet:w-[750px] laptop:w-[580px] desktop:w-[580px] 
           lgdesk:w-[750px] tablet:h-[310px]"
-          src="https://www.thessalonikiguide.gr/wp-content/uploads/2016/09/One-Salonica-thessaloniki.jpg">
+          src="https://adventurepaintball.gr/wp-content/uploads/2016/07/paidiko-party.jpg">
         </div>
   
         <!--info-->
         <div class="pr-5 grid place-content-center">
   
           <h1 class="font-semibold text-lg mobile:text-2xl tablet:text-4xl">
-            One Salonica Outlet Mall</h1>
+            Adventure Paintball </h1>
   
           <swiper :pagination="{clickable: true,}" 
           :modules="modules" 
@@ -122,23 +112,19 @@
               
               <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg">
                 
-                  The mall features over 100 stores, offering a wide range of products including clothing, 
-                  shoes, accessories, sports equipment, home goods, and electronics. 
+                Adventure Paintball is located in the area of the Mediterranean Cosmos Mall in Thessaloniki, 
+                just 10 minutes away from the city center, easily accessible by car or bus. 
+                
                     
                 
               </swiper-slide>
   
               <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg ">
                 <p class="">
-                  Some of the most well-known international and local brands are represented at One Salonica Outlet, 
-                  and shoppers can enjoy discounts on their purchases throughout the year.
+                Specially designed themed fields you and your company can live the unique experience 
+                of playing paintball or just escape from everyday life by watching the sport drinking your 
+                coffee or refreshment away from the noise of the city.
                 </p>
-              </swiper-slide>
-  
-              <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg ">
-                  You will also find a range of restaurants, 
-                  cafes, and entertainment options. Whether you're looking for new clothes, electronics, 
-                  or just want to relax and enjoy the atmosphere, the shopping center has something for everyone.
               </swiper-slide>
               
             </swiper>
