@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+
+
+
 @layer components {
     .btnnav {
         @apply text-black font-semibold text-sm desktop:text-xl
@@ -15,12 +18,14 @@
     }
     
     .content {
-        @apply text-transparent font-bold text-4xl hover:text-white 
+        @apply text-transparent font-bold hover:text-white 
         grid place-content-center
         desktop:w-[600px] desktop:h-[240px] 
         laptop:w-[450px] laptop:h-[240px]
-        tablet:w-[420px] tablet:h-[230px]
+        tablet:w-[350px] tablet:h-[180px]
+        mobile:w-[400px] mobile:h-[100px]
         w-full h-[130px]
-        tablet:text-4xl      
+        text-2xl tablet:text-4xl    
     }
 }
+

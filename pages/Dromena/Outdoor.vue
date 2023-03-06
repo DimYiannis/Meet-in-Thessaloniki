@@ -35,13 +35,6 @@
                   accessories to electronics, home goods, and sports equipment.
                 </p>
               </swiper-slide>
-                  
-              <swiper-slide>
-                <div>
-                  <img class="object-none object-bottom w-max h-max"
-                  src="https://www.larissanet.gr/wp-content/uploads/2022/03/202203211930235795.jpg" >
-                </div>
-              </swiper-slide>
   
             </swiper>
           

@@ -1,4 +1,5 @@
 <template>
+  
      <Plaisio v-for="sight in sights" :key="sight.id" :id="sight.id" 
                 :name="sight.name" :info="sight.info"
                 class="grid gap-5">
@@ -46,6 +47,7 @@
                     </template>
 
      </Plaisio>
+
 </template>
 
 <script>

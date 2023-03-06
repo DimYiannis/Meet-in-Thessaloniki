@@ -1,6 +1,6 @@
 <template>
     <div class="text-black
-    h-screen w-[98vw]">
+    h-screen w-[95vw] ">
     <slot/>
        
 

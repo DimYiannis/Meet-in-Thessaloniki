@@ -1,5 +1,5 @@
 <template>
-    <div class="grid w-[98vw] h-screen pb-2
+    <div class="grid w-[95vw] p-5 tablet:w-[98vw] h-screen pb-2
     grid-cols-1 grid-rows-5 gap-4
     tablet:grid-cols-2 tablet:grid-rows-3">
         
@@ -24,7 +24,7 @@
                 class="bg-sights">
                     <template v-slot:title>
                         <h3 v-show="showTitle" class=" font-bold 
-                            text-4xl text-white 
+                            text-2xl tablet:text-4xl text-white 
                             grid place-content-center
                             desktop:w-[600px] desktop:h-[200px] 
                             laptop:w-[450px] laptop:h-[240px]
@@ -43,11 +43,12 @@
                 class="bg-museum">
                     <template v-slot:title>
                         <h3 class="text-transparent font-bold 
-                            text-4xl hover:text-white 
+                        text-2xl tablet:text-4xl hover:text-white 
                             grid place-content-center
                             desktop:w-[620px] desktop:h-[200px] 
                             laptop:w-[900px] laptop:h-[240px]
-                            tablet:w-[400px] tablet:h-[230px]
+                            tablet:w-[350px] tablet:h-[180px]
+                            mobile:w-[400px] mobile:h-[100px]
                             h-[130px]">
                             Museums to visit</h3>
                     </template>

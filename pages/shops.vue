@@ -1,5 +1,5 @@
 <template>
-    <div class="grid w-[98vw] h-screen p-5 pb-2
+    <div class="grid w-[95vw] tablet:w-[98vw] h-screen p-5 pb-2
     grid-cols-1 grid-rows-4 gap-4
     tablet:grid-cols-2 tablet:grid-rows-3 laptop:grid-rows-2">
         
@@ -20,11 +20,12 @@
                 class="bg-mall">
                     <template v-slot:title>
                         <h3 class="text-transparent font-bold 
-                            text-4xl hover:text-white 
+                        text-2xl tablet:text-4xl hover:text-white 
                             grid place-content-center
                             desktop:w-[620px] desktop:h-[600px] 
                             laptop:w-[450px] laptop:h-[240px]
-                            tablet:w-[360px] tablet:h-[230px]
+                            tablet:w-[350px] tablet:h-[180px]
+                            mobile:w-[400px] mobile:h-[100px]
                             h-[130px]">
                             Malls</h3>
                     </template>
@@ -40,11 +41,12 @@
                 class="bg-local">
                     <template v-slot:title>
                         <h3 class="text-transparent font-bold 
-                            text-4xl hover:text-white 
+                        text-2xl tablet:text-4xl hover:text-white 
                             grid place-content-center
                             desktop:w-[620px] desktop:h-[200px] 
                             laptop:w-[900px] laptop:h-[240px]
-                            tablet:w-[400px] tablet:h-[230px]
+                            tablet:w-[350px] tablet:h-[180px]
+                            mobile:w-[400px] mobile:h-[100px]
                             h-[130px]">
                             Local Shops</h3>
                     </template>
