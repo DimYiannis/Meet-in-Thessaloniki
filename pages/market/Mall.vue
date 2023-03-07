@@ -7,6 +7,6 @@
 
 <script>
 definePageMeta({
-   layout:  "details",
+   layout:  "default",
 });
 </script>

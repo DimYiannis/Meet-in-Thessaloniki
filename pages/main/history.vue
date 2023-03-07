@@ -44,7 +44,7 @@
 
 <script>
 definePageMeta({
-    layout:  "details",
+    layout:  "default",
 });
 export default {
     data() {

@@ -19,11 +19,11 @@
 
 
             <template #name>
-            {{museum.name}}
+              <h1 class="font-semibold">{{museum.name}}</h1>
             </template>
 
             <template #info>
-                <p class="text-white text-center mx-10 font-semibold 
+                <p class="text-white text-center mx-10  
                 ">{{museum.info}}</p>
             </template>
 
@@ -48,7 +48,7 @@
 
 <script>
 definePageMeta({
-    layout:  "details",
+    layout:  "default",
 });
 export default {
     data() {

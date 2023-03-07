@@ -50,9 +50,7 @@
 </template>
 
 <script>
-definePageMeta({
-   layout:  "details",
-});
+
 
 export default {
    data() {

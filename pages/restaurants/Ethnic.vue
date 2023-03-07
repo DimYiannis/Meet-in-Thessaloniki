@@ -41,7 +41,7 @@
 
 
             <template #name>
-            {{data.name}}
+              <h1 class="font-semibold">{{data.name}}</h1>
             </template>
 
             <template #info>
@@ -70,7 +70,7 @@
 
 <script>
 definePageMeta({
-    layout:  "details",
+    layout:  "default",
 });
 export default {
     data() {

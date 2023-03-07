@@ -232,9 +232,15 @@
               </swiper-slide>
   
               <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg ">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12109.516636390312!2d22.9089461!3d40.6435717!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83981b2e6dc7d%3A0xcb2570cfa0bafd52!2sBlock%2033!5e0!3m2!1sel!2sgr!4v1678113727124!5m2!1sel!2sgr" 
-                width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                
+                  
+                    <div src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12109.516636390312!2d22.9089461!3d40.6435717!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83981b2e6dc7d%3A0xcb2570cfa0bafd52!2sBlock%2033!5e0!3m2!1sel!2sgr!4v1678113727124!5m2!1sel!2sgr" 
+                    width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </div>
+                  
+                  
+                
+                
               </swiper-slide>
               
             </swiper>

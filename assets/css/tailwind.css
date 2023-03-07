@@ -7,10 +7,7 @@
 
 
 @layer components {
-    .btnnav {
-        @apply text-black font-semibold text-sm desktop:text-xl
-        hover:text-lg
-    }
+   
 
     .img {
         @apply w-full h-full rounded-2xl
@@ -27,5 +24,39 @@
         w-full h-[130px]
         text-2xl tablet:text-4xl    
     }
+}
+
+
+/*navbar*/
+
+ .btnnav {
+        @apply text-[#000000] font-semibold text-sm desktop:text-xl
+        rounded-lg border-2 hover:border-black 
+    }
+.navbar {
+    @apply flex flex-row items-center flex-nowrap 
+    justify-between w-full fixed top-0  text-white py-2 
+    h-[2.5rem] tablet:h-[3rem] p-[1.2rem]
+ 
+}
+
+.bar {
+    @apply absolute w-32 mt-6 top-10 right-0 bg-white rounded-md 
+    shadow-xl z-20 text-black
+}
+
+.headerbtn {
+    @apply flex justify-center w-fit hover:bg-white 
+    hover:bg-opacity-40 rounded-md p-2  
+}
+
+.dropdown {
+   @apply block px-4 py-2 text-sm capitalize text-slate-600 
+   hover:bg-slate-400 hover:text-white hover:cursor-pointer
+   
+}
+
+.headersvg {
+    @apply object-center w-6 h-6 text-black 
 }
 
