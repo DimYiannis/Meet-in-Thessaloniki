@@ -1,3 +1,9 @@
+Lets meet in Thessaloniki!
+
+A minimal website dedicated to the beautifull city of Thessaloniki.
+The main purpose of this site is to introduce some options for tourists that are just bypassers or have some hours at their disposal to enjoy and see the city.
+
+
 
 ![Opera Σ![Opera Στιγμιότυπο_2023-03-08_152729_localhost](https://user-images.githubusercontent.com/107484245/223725798-75d5b196-a3d2-4eb1-8fb9-bfa687ab042c.png)
 τιγμιότυπο_2023-03-08_152746_localhost](https://user-images.githubusercontent.com/107484245/223725705-33f3ac1f-88c1-41b0-80a3-10309f0f455f.png)
