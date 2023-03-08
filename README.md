@@ -16,24 +16,19 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 
 1. Clone the repo
-
+``` sh
 git clone https://github.com/DimYiannis/Meet-in-Thessaloniki.git
-
+```
 2 Install NPM packages
-
+```sh
 npm install
-
+```
 3. Run NPM script
 
  Run app in development mode:
- 
+``` sh 
 npm run dev
-
-4. Start a production build:
-
-npm run build
-
-
+```
 ## Production
 
 Build the application for production:
