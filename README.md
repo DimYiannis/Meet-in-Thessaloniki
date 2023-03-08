@@ -43,6 +43,6 @@ Locally preview production build:
 npm run preview
 ```
 ## Deploy Project
-http://localhost:3000/
+ https://dimyiannis.github.io/Meet-in-Thessaloniki/
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
