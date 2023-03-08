@@ -19,7 +19,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 ``` sh
 git clone https://github.com/DimYiannis/Meet-in-Thessaloniki.git
 ```
-2 Install NPM packages
+2. Install NPM packages
 ```sh
 npm install
 ```
