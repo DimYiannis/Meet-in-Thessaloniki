@@ -19,7 +19,7 @@ pnpm install
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on https://dimyiannis.github.io/Meet-in-Thessaloniki
 
 ```bash
 npm run dev
