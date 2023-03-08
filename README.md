@@ -42,5 +42,7 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
+## Deploy Project
+http://localhost:3000/
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
