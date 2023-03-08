@@ -7,8 +7,6 @@
 
 
 @layer components {
-   
-
     .img {
         @apply w-full h-full rounded-2xl
         shadow-md
@@ -24,26 +22,68 @@
         w-full h-[130px]
         text-2xl tablet:text-4xl    
     }
+
+    .blog {
+        @apply grid border-[#76b1ec] mx-5 
+        tablet:grid-cols-2 tablet:grid-rows-2 
+        laptop:grid-cols-3 laptop:grid-rows-none
+    }
+
+    .item {
+        @apply w-full h-full bg-center 
+        rounded-2xl text-black bg-slate-200
+        bg-cover transition ease-in-out delay-150
+        hover:-translate-y-1 hover:scale-90 duration-300
+    }
+    
+    .bar {
+    @apply absolute w-32 mt-6 top-10 right-0 bg-white rounded-md 
+    shadow-xl z-20 text-black
+    }
+
+
+}
+
+.eventspage {
+    @apply grid w-[95vw] p-5 tablet:w-[98vw] h-screen pb-2
+    grid-cols-1 grid-rows-4 gap-4
+    tablet:grid-cols-2 tablet:grid-rows-3 laptop:grid-rows-2
+}
+
+.indexpage {
+    @apply grid w-[97vw] p-5 tablet:w-[98vw] h-screen pb-2
+    grid-cols-1 grid-rows-5 gap-4
+    tablet:grid-cols-2 tablet:grid-rows-3
+}
+
+.restaurantpage {
+    @apply grid w-[95vw] p-5 h-screen pb-2
+    grid-cols-1 grid-rows-5 gap-4
+    tablet:grid-cols-2 tablet:grid-rows-3
+}
+
+.marketspage {
+    @apply grid w-[95vw] tablet:w-[98vw] h-screen p-5 pb-2
+    grid-cols-1 grid-rows-4 gap-4
+    tablet:grid-cols-2 tablet:grid-rows-3 laptop:grid-rows-2
 }
 
 
 /*navbar*/
 
- .btnnav {
+.header {
+    @apply bg-[#f1f1f1] drop-shadow-md z-10 w-[98vw]
+}
+
+ .btn {
         @apply text-[#000000] font-semibold text-sm desktop:text-xl
         rounded-lg border-2 hover:border-black 
     }
 .navbar {
-    @apply flex flex-row items-center flex-nowrap 
-    justify-between w-full fixed top-0  text-white py-2 
-    h-[2.5rem] tablet:h-[3rem] p-[1.2rem]
+    @apply container mx-auto h-16 grid items-center
  
 }
 
-.bar {
-    @apply absolute w-32 mt-6 top-10 right-0 bg-white rounded-md 
-    shadow-xl z-20 text-black
-}
 
 .headerbtn {
     @apply flex justify-center w-fit hover:bg-white 

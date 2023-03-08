@@ -1,51 +1,61 @@
 <template>
-    <Plaisio v-for="place in places" :key="place.id" :id="place.id" 
-               :name="place.name" :info="place.info"
-               class="grid gap-5">
+  <Plaisio v-for="place in places" :key="place.id" :id="place.id" 
+    :name="place.name" :info="place.info"
+    class="grid gap-5">
 
-       <template #img>
-           <div class="left-0 w-screen tablet:h-[350px]">
+    <template #img>
+      <div class="left-0 w-screen tablet:h-[350px]">
 
-               <img class="object-cover w-screen tablet:h-[350px]" :src="place.img"/>
+        <img class="object-cover w-screen tablet:h-[350px]" :src="place.img"/>
            
 
-               <span class="flex rounded-full z-10 relative bottom-20 left-5 
-               bg-[#383836] w-fit px-5 opacity-70 
-               hover:opacity-90 hover:scale-105 duration-500">
-                   <div class="relative self-center h-fit text-white w-fit">
-                       <h1 class="mb-6 text-lg tablet:text-2xl w-max">{{place.name}}</h1>
-                       <h2 class="absolute top-6 mobile:top-8 laptop:top-10 laptop:text-base
-                       tablet:text-sm text-xs w-max">Thessaloniki, GR</h2>              
-                   </div> 
-               </span>
+          <span class="flex rounded-full z-10 relative bottom-20 left-5 
+          bg-[#383836] w-fit px-5 opacity-70 
+            hover:opacity-90 hover:scale-105 duration-500">
+
+            <div class="relative self-center h-fit text-white w-fit">
+
+              <h1 class="mb-6 text-lg tablet:text-2xl w-max">
+                {{place.name}}
+              </h1>
+              <h2 class="absolute top-6 mobile:top-8 laptop:top-10 laptop:text-base
+                tablet:text-sm text-xs w-max">
+                Thessaloniki, GR
+              </h2>
+            </div> 
+          </span>
                                                                                                                                                                                                     
-           </div>
+      </div>
                       
-                   </template>
+    </template>
 
-                   <template #info>
-                       <h1 class="font-bold  text-lg mobile:text-2xl 
-                       tablet:text-4xl text-center mb-4">At {{ place.name }}</h1>
-                       <p class="text-black text-xs mobile:text-base 
-                       text-center mx-10  tablet:text-2xl 
-                       ">{{place.info}}</p>
-                   </template>
+    <template #info>
+      <h1 class="font-bold  text-lg mobile:text-2xl 
+        tablet:text-4xl text-center mb-4">At 
+        {{ place.name }}
+      </h1>
+      <p class="text-black text-xs mobile:text-base 
+        text-center mx-10  tablet:text-2xl ">
+        {{place.info}}
+      </p>
+    </template>
 
-                   <template #map>
+    <template #map>
 
-                     <p class="text-center text-black
-                       text-3xl font-semibold"
-                       >Location</p>
+      <p class="text-center text-black
+        text-3xl font-semibold">
+        Location
+      </p>
 
-                       <iframe :src="place.location" 
-                       class="w-[200px] mobile:w-[400px] 
-                       tablet:w-[700px] laptop:w-[900px] laptop:h-[500px]
-                       desktop:w-[1000px] lgdesk:w-[1200px] h-[400px]"
-                           style="border:1;" allowfullscreen="" loading="lazy">
-                       </iframe>
-                   </template>
+      <iframe :src="place.location" 
+        class="w-[200px] mobile:w-[400px] 
+        tablet:w-[700px] laptop:w-[900px] laptop:h-[500px]
+        desktop:w-[1000px] lgdesk:w-[1200px] h-[400px]"
+        style="border:1;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </template>
 
-    </Plaisio>
+  </Plaisio>
 </template>
 
 <script>

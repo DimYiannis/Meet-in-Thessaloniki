@@ -1,7 +1,5 @@
 <template>
-    <div class="grid w-[95vw] tablet:w-[98vw] h-screen p-5 pb-2
-    grid-cols-1 grid-rows-4 gap-4
-    tablet:grid-cols-2 tablet:grid-rows-3 laptop:grid-rows-2">
+    <div class="marketspage">
         
         <div class="grid tablet:col-span-2 laptop:col-span-1 text-center ">
             <div class="text-center">

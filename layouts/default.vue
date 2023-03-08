@@ -1,30 +1,30 @@
 <template>
 
     
-    <header class=" bg-[#f1f1f1] drop-shadow-md z-10 w-[99vw] ">
-            <nav class="container mx-auto h-16 grid items-center">
-                <ul class="flex justify-between ">
-                    <NuxtLink to="/" class="btnnav">
+    <header class="header">
+            <nav class="navbar">
+                <ul class="flex justify-between mx-2">
+                    <NuxtLink to="/" class="btn">
                         <h1 class="m-1">Thessaloniki</h1>
                     </NuxtLink>
                     <li class="mobile:flex gap-4 hidden">
-                        <NuxtLink to="/shops" class="btnnav">
+                        <NuxtLink to="/shops" class="btn">
                             <h1 class="m-1">Market</h1>
                         </NuxtLink>
-                        <NuxtLink to="/restaurants" class="btnnav">
+                        <NuxtLink to="/restaurants" class="btn">
                             <h1 class="m-1">Restaurants</h1>
                         </NuxtLink>
-                        <NuxtLink to="/Events" class="btnnav">
+                        <NuxtLink to="/Events" class="btn">
                             <h1 class="m-1">Events</h1>
                         </NuxtLink>
                     </li>
 
                     <!--drop down menu-->
-                    <div class=" mobile:hidden mr-2" @click="showBar=true"
+                    <div class=" mobile:hidden mr-2" @click="isBarOpen=true"
                     >
                         <button
-                        @click="toggleBar"
-                        class="btnnav">
+                        @click="isBarOpen=true"
+                        class="btn">
                             <svg xmlns="http://www.w3.org/2000/svg" 
                             fill="none" 
                             viewBox="0 0 24 24" 
@@ -41,7 +41,8 @@
                     </div>
 
                     <Teleport to="body">
-                        <Dropdown v-if="showBar" class="relative" @click="toggleBar" @mouseleave="toggleBar" />
+                        <Dropdown v-if="isBarOpen" class="relative" ref="showBar"
+                        @click="isBarOpen=false" @mouseleave="isBarOpen=false" />
                     </Teleport>
 
                 </ul> 
@@ -55,21 +56,16 @@
     </div>
 </template>
 
-<script>
-export default {
-    
-    data() {
-        return {
-            showBar: false, 
-        }
-    },
-    methods: {
-        toggleBar() {
-            this.showBar = !this.showBar
-        },
-        
-    },      
-}
+<script setup lang="ts">
+import { ref } from 'vue'
+import { onClickOutside } from '@vueuse/core'
+
+const isBarOpen = ref(false)
+const showBar = ref(null)
+
+onClickOutside(showBar, () => (isBarOpen.value = false))
+
+
 </script>
 
 <style scoped>

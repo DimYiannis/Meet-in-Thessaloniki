@@ -1,49 +1,53 @@
 <template>
-    <div class="grid gap-10 bg-[#2d2e30bd] ">
+  <div class="grid gap-10 bg-[#2d2e30bd] ">
 
-<div class="text-center text-white 
- pt-4 px-2 text-3xl font-semibold">
-   <p>#shopping_streets</p>
-</div>
+  <div class="text-center text-white 
+    pt-4 px-2 text-3xl font-semibold">
+   <p>#Shopping_streets</p>
+  </div>
 
-        <Blog v-for="museum in museums" :key="museum.id" :id="museum.id" 
-        :name="museum.name" :info="museum.info" >
+  <Blog v-for="museum in museums" :key="museum.id" :id="museum.id" 
+    :name="museum.name" :info="museum.info" >
             
-            <template #img>
-                <img class="rounded-full w-[200px] h-[200px]
-                mobile:w-[350px] 
-                tablet:w-[300px] tablet:h-[300px] 
-                lgdesk:w-[350px] lgdesk:h-[350px] " 
-                    :src="museum.img" />
-            </template>
+    <template #img>
+      <img class="rounded-full w-[200px] h-[200px]
+        mobile:w-[350px] 
+        tablet:w-[300px] tablet:h-[300px] 
+        lgdesk:w-[350px] lgdesk:h-[350px] " 
+        :src="museum.img" />
+    </template>
 
 
-            <template #name>
-              <h1 class="font-semibold">{{museum.name}}</h1>
-            </template>
+    <template #name>
+      <h1 class="font-semibold">
+        {{museum.name}}
+      </h1>
+    </template>
 
-            <template #info>
-                <p class="text-white text-center mx-10  
-                ">{{museum.info}}</p>
-            </template>
+    <template #info>
+      <p class="text-white text-center mx-10 ">
+        {{museum.info}}
+      </p>
+    </template>
 
-            <template #location>
+    <template #location>
 
-              <p class="text-center text-white 
-                text-3xl font-semibold laptop:hidden"
-                >Location</p>
+      <p class="text-center text-white 
+        text-3xl font-semibold laptop:hidden">
+        Location
+      </p>
 
-                <iframe :src="museum.location" 
-                class=" mobile:w-[400px] 
-                tablet:w-[700px] laptop:w-[300px] laptop:h-[500px]
-                desktop:w-[400px] lgdesk:w-[500px] h-[400px]"
-                    style="border:1;" allowfullscreen="" loading="lazy">
-                </iframe>
-            </template>
+      <iframe :src="museum.location" 
+        class=" mobile:w-[400px] 
+        tablet:w-[700px] laptop:w-[300px] laptop:h-[500px]
+        desktop:w-[400px] lgdesk:w-[500px] h-[400px]"
+        style="border:1;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </template>
 
-        </Blog>
+  </Blog>
 
-</div>
+  </div>
 </template>
 
 <script>

@@ -1,8 +1,6 @@
 <template>
     
-    <div class="grid border-[#76b1ec] mx-5 
-    tablet:grid-cols-2 tablet:grid-rows-2 
-    laptop:grid-cols-3 laptop:grid-rows-none">
+    <div class="blog">
         
         
 

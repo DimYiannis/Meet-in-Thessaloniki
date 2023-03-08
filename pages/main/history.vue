@@ -1,45 +1,41 @@
 <template>
-    <div class="grid gap-10 bg-[#2d2e30bd] ">
+  <div class="grid gap-10 bg-[#2d2e30bd] ">
 
-<div class="text-center text-white 
- pt-4 px-2 text-3xl font-semibold">
-   <p>history_skg</p>
-</div>
+  <div class="text-center text-white 
+    pt-4 px-2 text-3xl font-semibold">
+    <p>#History_skg</p>
+  </div>
 
-        <Blog v-for="museum in museums" :key="museum.id" :id="museum.id" 
-        :name="museum.name" :info="museum.info" >
+  <Blog v-for="museum in museums" :key="museum.id" :id="museum.id" 
+    :name="museum.name" :info="museum.info" >
             
-            <template #img>
-                <img class="rounded-full w-[200px] h-[200px]
-                mobile:w-[350px] 
-                tablet:w-[300px] tablet:h-[300px] 
-                lgdesk:w-[350px] lgdesk:h-[350px] " 
-                    :src="museum.img" />
-            </template>
+    <template #img>
+      <img class="rounded-full w-[200px] h-[200px]
+        mobile:w-[350px] 
+        tablet:w-[300px] tablet:h-[300px] 
+        lgdesk:w-[350px] lgdesk:h-[350px] " 
+        :src="museum.img" />
+    </template>
 
 
-            <template #name>
-              <div class="grid h-max text-center place-self-center">
-                {{museum.name}}
-              </div>
-            </template>
+    <template #name>
+      <div class="grid h-max text-center place-self-center">
+        {{museum.name}}
+      </div>
+    </template>
 
-            <template #info>
-                <p class="text-white text-center mx-10 font-semibold 
-                ">{{museum.info}}</p>
-            </template>
+    <template #info>
+      <p class="text-white text-center mx-10 font-semibold ">
+        {{museum.info}}
+      </p>
+    </template>
 
-            <template #location>
-
-              <img class=" h-[500px] " 
-                :src="museum.img2" />
-
-               
-            </template>
-
-        </Blog>
-
-</div>
+    <template #location>
+      <img class=" h-[500px] " 
+        :src="museum.img2" />        
+    </template>
+  </Blog>
+  </div>
 </template>
 
 <script>

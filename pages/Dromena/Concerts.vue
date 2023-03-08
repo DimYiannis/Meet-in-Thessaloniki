@@ -77,8 +77,8 @@
               </swiper-slide>
   
               <swiper-slide>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12110.587436553073!2d22.9661557!3d40.6376693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a8385a9d823e35%3A0x46b7c504722af094!2zzpjOrc6xz4TPgc6_IM6UzqzPg86_z4XPgg!5e0!3m2!1sel!2sgr!4v1678107166131!5m2!1sel!2sgr"
-                 width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12112.388951338351!2d22.9727161!3d40.6277375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a838f5ea555555%3A0x72cc2b13c21b1443!2zzpjOrc6xz4TPgc6_IM6TzrfPgg!5e0!3m2!1sel!2sgr!4v1678262824346!5m2!1sel!2sgr"
+                width="400" height="200" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
               </swiper-slide>
               
             </swiper>
@@ -87,6 +87,7 @@
         
         <!--pic-->
         <div class="laptop:w-1/2 order-first laptop:order-last flex place-content-center">
+
           <img class="rounded-md tablet:w-[750px] laptop:w-[580px] desktop:w-[580px] 
           lgdesk:w-[750px] tablet:h-[310px] grayscale"
           src="https://www.ntng.gr/gallery/ntng////images/stages/large/Forest_Theatre/Photos/PE0409J0002v01.jpg">
@@ -99,6 +100,7 @@
         
         <!--pic-->
         <div class="laptop:w-1/2 flex place-content-center">
+
           <img class="rounded-md tablet:w-[750px] laptop:w-[580px] desktop:w-[580px] 
           lgdesk:w-[750px] tablet:h-[310px] grayscale"
           src="https://www.lifo.gr/sites/default/files/styles/lifo_lightbox_open/public/articles/2020-10-29/img_8300.jpg?itok=WXrrgSOk">

@@ -1,52 +1,60 @@
 <template>
   
-     <Plaisio v-for="sight in sights" :key="sight.id" :id="sight.id" 
-                :name="sight.name" :info="sight.info"
-                class="grid gap-5">
+  <Plaisio v-for="sight in sights" :key="sight.id" :id="sight.id" 
+    :name="sight.name" :info="sight.info"
+    class="grid gap-5">
 
-        <template #img>
-            <div class="left-0 w-screen tablet:h-[500px]">
+    <template #img>
+      <div class="left-0 w-screen tablet:h-[500px]">
 
-                <img class="object-cover w-screen tablet:h-[500px]" :src="sight.img"/>
+        <img class="object-cover w-screen tablet:h-[500px]" :src="sight.img"/>
             
 
-                <span class="flex rounded-full z-10 relative bottom-20 left-5 
-                bg-[#383836] w-fit px-5 opacity-70 
-                hover:opacity-90 hover:scale-105 duration-500">
-                    <div class="relative self-center h-fit text-white w-fit">
-                        <h1 class="mb-6 text-lg tablet:text-2xl w-max ">{{sight.name}}</h1>
-                        <h2 class="absolute top-6 mobile:top-8 laptop:top-10 laptop:text-base
-                        tablet:text-sm text-xs w-max">Thessaloniki, GR</h2>              
-                    </div> 
-                </span>
+        <span class="flex rounded-full z-10 relative bottom-20 left-5 
+          bg-[#383836] w-fit px-5 opacity-70 
+            hover:opacity-90 hover:scale-105 duration-500">
+            <div class="relative self-center h-fit text-white w-fit">
+              <h1 class="mb-6 text-lg tablet:text-2xl w-max ">
+                {{sight.name}}
+              </h1>
+              <h2 class="absolute top-6 mobile:top-8 laptop:top-10 laptop:text-base
+                tablet:text-sm text-xs w-max">
+                Thessaloniki, GR
+              </h2>              
+            </div> 
+          </span>
                                                                                                                                                                                                      
-            </div>
+      </div>
                        
-                    </template>
+    </template>
 
-                    <template #info>
-                        <h1 class="font-bold  text-lg mobile:text-2xl 
-                        tablet:text-4xl text-center mb-4">At {{ sight.name }}</h1>
-                        <p class="text-black text-xs mobile:text-base 
-                        text-center mx-10  tablet:text-2xl 
-                        ">{{sight.info}}</p>
-                    </template>
+    <template #info>
+      <h1 class="font-bold  text-lg mobile:text-2xl 
+        tablet:text-4xl text-center mb-4">
+        At {{ sight.name }}
+      </h1>
+      <p class="text-black text-xs mobile:text-base 
+        text-center mx-10  tablet:text-2xl ">
+        {{sight.info}}
+      </p>
+    </template>
 
-                    <template #map>
+    <template #map>
 
-                      <p class="text-center text-black
-                        text-3xl font-semibold"
-                        >Location</p>
+      <p class="text-center text-black
+        text-3xl font-semibold">
+        Location
+      </p>
 
-                        <iframe :src="sight.location" 
-                        class="w-[200px] mobile:w-[400px] 
-                        tablet:w-[700px] laptop:w-[900px] laptop:h-[500px]
-                        desktop:w-[1000px] lgdesk:w-[1200px] h-[400px]"
-                            style="border:1;" allowfullscreen="" loading="lazy">
-                        </iframe>
-                    </template>
+      <iframe :src="sight.location" 
+        class="w-[200px] mobile:w-[400px] 
+        tablet:w-[700px] laptop:w-[900px] laptop:h-[500px]
+        desktop:w-[1000px] lgdesk:w-[1200px] h-[400px]"
+        style="border:1;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </template>
 
-     </Plaisio>
+  </Plaisio>
 
 </template>
 
@@ -93,8 +101,8 @@ export default {
             location:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12111.575251098255!2d22.9517511!3d40.6322237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a839a92a802431%3A0xa31f707df819cbc2!2zzpHPiM6vzrTOsSDPhM6_z4UgzpPOsc67zrXPgc6vzr_PhSAozprOsc68zqzPgc6xKQ!5e0!3m2!1sel!2sgr!4v1677700278440!5m2!1sel!2sgr",
           },
           {
-            id: 'Rotunda',
-            name: 'Rotunda',
+            id: 'Rotonda',
+            name: 'Rotonda',
             site: 'http://odysseus.culture.gr/h/1/gh151.jsp?obj_id=19243',
             info: "The emblematic monument of Thessaloniki, was constructed in the early 4th century AD, on the turning point between the pagan with the Christian world, probably as a temple for ancient cult worship or as a mausoleum for Constantine the Great (306-337).",
             img: 'https://cityportal.gr/wp-content/uploads/2022/09/greece-2710550_1920.jpg',

@@ -16,6 +16,7 @@
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
+    "@vueuse/core": "^9.13.0",
     "nuxt-google-maps-module": "^1.6.0",
     "nuxt-leaflet": "^0.0.27",
     "nuxt-swiper": "^1.0.1",

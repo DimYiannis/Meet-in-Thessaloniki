@@ -3,7 +3,7 @@
 
         <div class="text-center text-white 
          pt-4 px-2 text-3xl font-semibold">
-            <p>#steak_skg</p>
+            <p>#Steak_skg</p>
         </div>
 
         <Slider v-for="data in data" :key="data.id" :id="data.id" 
