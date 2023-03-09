@@ -1,34 +1,23 @@
-name: Build and Deploy
-on: 
+name: Deploy to Github Pages
+
+on:
   push:
     branches:
       - main
-permissions:
-  contents: write
+
 jobs:
   build-and-deploy:
-    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18]
+
     steps:
-    - name: Checkout 🛎️
-      uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Install Dependencies
+        run: npm install
 
-    - name: Install & Generate 🔧
-      run: |
-        npm ci
-        npm run generate
-      env:
-        NUXT_APP_BASE_URL: ${{ vars.NUXT_APP_BASE_URL  }}
-
-    - name: Deploy 🚀
-      uses: DimYiannis/Meet-in-Thessaloniki-action@v4
-      with:
-        folder: dist
+      - name: Build and Deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm run generate
+          npm run deploy
