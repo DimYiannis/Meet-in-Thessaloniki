@@ -8,7 +8,16 @@ export default defineNuxtConfig({
     "@": resolve(__dirname, "/"),
   },
     
-  css: ['~/assets/css/tailwind.css'],
+  // Defaults options
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+    configPath: 'tailwind.config',
+    exposeConfig: false,
+    config: {},
+    injectPosition: 0,
+    viewer: true,
+  },
+
   build: {},
   postcss: {
       plugins: {
