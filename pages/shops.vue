@@ -43,7 +43,7 @@
                 <Item
                 class="bg-streets">
                     <template v-slot:title>
-                        <h3 class="content">Shopping Streets</h3>
+                        <h3 class="content desktop:h-[250px]">Shopping Streets</h3>
                     </template>
                 </Item>
             </NuxtLink>

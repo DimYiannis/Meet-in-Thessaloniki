@@ -48,7 +48,7 @@
                 <Item
                 class="bg-outdoor">
                     <template v-slot:title>
-                        <h3 class="content">Outdoor Activities</h3>
+                        <h3 class="content desktop:h-[200px]">Outdoor Activities</h3>
                     </template>
                 </Item>
             </NuxtLink>
