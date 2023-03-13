@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     "@": resolve(__dirname, "/"),
   },
     
-  css: ["~/assets/css/tailwind.css"],
+  css: ['~/assets/css/tailwind.css'],
   build: {},
   postcss: {
       plugins: {

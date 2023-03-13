@@ -15,7 +15,7 @@
 
         <div class="desktop:row-span-2 group">
             <NuxtLink to="/main/sights">
-                <Item v-bind="showTitle"
+                <Item
                 
                 class="bg-sights">
                     <template v-slot:title>
