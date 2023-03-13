@@ -14,20 +14,13 @@
         </div>
 
         <!--nightlife-->
-        <div class="desktop:row-span-3">
+        <div class="desktop:row-span-3 group">
             
             <NuxtLink to="/Dromena/Nightlife">
                 <Item
                 class="bg-night">
                     <template v-slot:title>
-                        <h3 class="text-transparent font-bold 
-                        text-2xl tablet:text-4xl hover:text-white 
-                            grid place-content-center
-                            desktop:w-[620px] desktop:h-[600px] 
-                            laptop:w-[450px] laptop:h-[240px]
-                            tablet:w-[360px] tablet:h-[230px]
-                            mobile:w-[400px] mobile:h-[100px]
-                            h-[130px]">
+                        <h3 class="content">
                            Nightlife</h3>
                     </template>
                 </Item>
@@ -36,27 +29,20 @@
         </div>
     
     <!--concerts-->
-        <div class=" desktop:col-span-1">
+        <div class=" desktop:col-span-1 group">
 
             <NuxtLink to="/Dromena/Concerts">
                 <Item
                 class="bg-concerts">
                     <template v-slot:title>
-                        <h3 class="text-transparent font-bold 
-                        text-2xl tablet:text-4xl hover:text-white 
-                            grid place-content-center
-                            desktop:w-[620px] desktop:h-[200px] 
-                            laptop:w-[900px] laptop:h-[240px]
-                            tablet:w-[350px] tablet:h-[180px]
-                            mobile:w-[400px] mobile:h-[100px]
-                            h-[130px]">
+                        <h3 class="content">
                             concerts</h3>
                     </template>
                 </Item>
             </NuxtLink>
         </div>
         <!--Outdoor-->
-        <div class="tablet:col-span-2 laptop:col-span-1">
+        <div class="tablet:col-span-2 laptop:col-span-1 group">
 
             <NuxtLink to="/Dromena/Outdoor">
                 <Item

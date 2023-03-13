@@ -13,21 +13,13 @@
             it all.</p>    
         </div>
 
-        <div class="desktop:row-span-2"
-        @mouseover="showTitle=true"
-        @mouseleave="showTitle=false">
+        <div class="desktop:row-span-2 group">
             <NuxtLink to="/main/sights">
                 <Item v-bind="showTitle"
                 
                 class="bg-sights">
                     <template v-slot:title>
-                        <h3 v-show="showTitle" class=" font-bold 
-                            text-2xl tablet:text-4xl text-white 
-                            grid place-content-center
-                            desktop:w-[600px] desktop:h-[200px] 
-                            laptop:w-[450px] laptop:h-[240px]
-                            tablet:w-[400px] tablet:h-[230px]
-                            h-[130px]">
+                        <h3 class="content">
                            Sights To See</h3>
                     </template>
                 </Item>
@@ -35,26 +27,19 @@
         </div>
     
     
-        <div class="laptop:col-span-2 desktop:col-span-1">
+        <div class="laptop:col-span-2 desktop:col-span-1 group">
             <NuxtLink to="/main/museums">
                 <Item
                 class="bg-museum">
                     <template v-slot:title>
-                        <h3 class="text-transparent font-bold 
-                        text-2xl tablet:text-4xl hover:text-white 
-                            grid place-content-center
-                            desktop:w-[620px] desktop:h-[200px] 
-                            laptop:w-[900px] laptop:h-[240px]
-                            tablet:w-[350px] tablet:h-[180px]
-                            mobile:w-[400px] mobile:h-[100px]
-                            h-[130px]">
+                        <h3 class="content">
                             Museums to visit</h3>
                     </template>
                 </Item>
             </NuxtLink>
         </div>
 
-        <div class="">   
+        <div class="group">   
             <NuxtLink to="/main/places">
                 <Item 
                 class="bg-places">
@@ -65,7 +50,7 @@
             </NuxtLink>
         </div>
 
-        <div class="">
+        <div class="group">
             <NuxtLink to="/main/history">
                 <Item
                 class="bg-history">
@@ -83,7 +68,6 @@
 export default {
     data() {
         return { 
-            showTitle: false
         }
     },
     

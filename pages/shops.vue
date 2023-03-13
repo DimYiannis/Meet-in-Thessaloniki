@@ -11,20 +11,13 @@
             </div>
         </div>
 
-        <div class="desktop:row-span-3">
+        <div class="desktop:row-span-3 group">
             
             <NuxtLink to="/market/mall">
                 <Item
                 class="bg-mall">
                     <template v-slot:title>
-                        <h3 class="text-transparent font-bold 
-                        text-2xl tablet:text-4xl hover:text-white 
-                            grid place-content-center
-                            desktop:w-[620px] desktop:h-[600px] 
-                            laptop:w-[450px] laptop:h-[240px]
-                            tablet:w-[350px] tablet:h-[180px]
-                            mobile:w-[400px] mobile:h-[100px]
-                            h-[130px]">
+                        <h3 class="content">
                             Malls</h3>
                     </template>
                 </Item>
@@ -33,26 +26,19 @@
         </div>
     
     
-        <div class="">
+        <div class="group">
             <NuxtLink to="/market/local">
                 <Item
                 class="bg-local">
                     <template v-slot:title>
-                        <h3 class="text-transparent font-bold 
-                        text-2xl tablet:text-4xl hover:text-white 
-                            grid place-content-center
-                            desktop:w-[620px] desktop:h-[200px] 
-                            laptop:w-[900px] laptop:h-[240px]
-                            tablet:w-[350px] tablet:h-[180px]
-                            mobile:w-[400px] mobile:h-[100px]
-                            h-[130px]">
+                        <h3 class="content">
                             Local Shops</h3>
                     </template>
                 </Item>
             </NuxtLink>
         </div>
 
-        <div class="tablet:col-span-2 laptop:col-span-1">   
+        <div class="tablet:col-span-2 laptop:col-span-1 group">   
             <NuxtLink to="/market/streets">
                 <Item
                 class="bg-streets">

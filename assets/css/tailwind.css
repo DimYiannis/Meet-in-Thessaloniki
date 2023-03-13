@@ -13,13 +13,9 @@
     }
     
     .content {
-        @apply text-transparent font-bold hover:text-white 
+        @apply text-transparent font-bold group-hover:text-white 
         grid place-content-center
-        desktop:w-[600px] desktop:h-[240px] 
-        laptop:w-[450px] laptop:h-[240px]
-        tablet:w-[350px] tablet:h-[180px]
-        mobile:w-[400px] mobile:h-[100px]
-        w-full h-[130px]
+        w-fit h-fit
         text-2xl tablet:text-4xl    
     }
 

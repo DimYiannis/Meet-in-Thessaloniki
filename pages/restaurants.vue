@@ -14,20 +14,13 @@
             a rich cultural heritage.</p>    
         </div>
 
-        <div class="desktop:row-span-2">
+        <div class="desktop:row-span-2 group">
             
             <NuxtLink to="/restaurants/Ethnic" >
                 <Item
                 class="bg-traditional">
                     <template v-slot:title>
-                        <h3 class="text-transparent font-bold 
-                            text-2xl tablet:text-4xl hover:text-white 
-                            grid place-content-center
-                            desktop:w-[620px] desktop:h-[400px] 
-                            laptop:w-[450px] laptop:h-[240px]
-                            tablet:w-[400px] tablet:h-[180px]
-                            mobile:w-[400px] mobile:h-[100px]
-                            h-[130px]">
+                        <h3 class="content">
                             Ethnic</h3>
                     </template>
                 </Item>
@@ -36,26 +29,19 @@
         </div>
     
     
-        <div class="laptop:col-span-2 desktop:col-span-1">
+        <div class="laptop:col-span-2 desktop:col-span-1 group">
             <NuxtLink to="/restaurants/gourmet">
                 <Item
                 class="bg-gourmet">
                     <template v-slot:title>
-                        <h3 class="text-transparent font-bold 
-                        text-2xl tablet:text-4xl hover:text-white 
-                            grid place-content-center
-                            desktop:w-[620px] desktop:h-[200px] 
-                            laptop:w-[900px] laptop:h-[240px]
-                            tablet:w-[400px] tablet:h-[180px]
-                            mobile:w-[400px] mobile:h-[100px]
-                            h-[130px]">
+                        <h3 class="content">
                             Gourmet</h3>
                     </template>
                 </Item>
             </NuxtLink>
         </div>
 
-        <div class="">   
+        <div class="group">   
             <NuxtLink to="/restaurants/Seafood">
                 <Item
                 class="bg-fish">
@@ -66,7 +52,7 @@
             </NuxtLink>
         </div>
 
-        <div class="">
+        <div class="group">
             <NuxtLink to="/restaurants/Steak">
                 <Item
                 class="bg-meat">
