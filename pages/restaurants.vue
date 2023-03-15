@@ -16,7 +16,7 @@
 
         <div class="desktop:row-span-2 group">
             
-            <NuxtLink to="/restaurants/Ethnic" >
+            <NuxtLink to="/Thermopolia/Ethnic" >
                 <Item
                 class="bg-traditional">
                     <template v-slot:title>
@@ -30,7 +30,7 @@
     
     
         <div class="laptop:col-span-2 desktop:col-span-1 group">
-            <NuxtLink to="/restaurants/gourmet">
+            <NuxtLink to="/Thermopolia/gourmet">
                 <Item
                 class="bg-gourmet">
                     <template v-slot:title>
@@ -42,7 +42,7 @@
         </div>
 
         <div class="group">   
-            <NuxtLink to="/restaurants/Seafood">
+            <NuxtLink to="/Thermopolia/Seafood">
                 <Item
                 class="bg-fish">
                     <template v-slot:title>
@@ -53,7 +53,7 @@
         </div>
 
         <div class="group">
-            <NuxtLink to="/restaurants/Steak">
+            <NuxtLink to="/Thermopolia/Steak">
                 <Item
                 class="bg-meat">
                     <template v-slot:title>
