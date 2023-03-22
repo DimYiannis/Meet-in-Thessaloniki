@@ -108,8 +108,8 @@ export default {
             id: 'Το Μανιτάρι Restaurant',
             name: 'Το Μανιτάρι Restaurant',
             info: "Having earned a place among the city's top restaurants, Manitari is located on the second floor of the shopping center of Sophouli. The space often surprises those who visit it for the first time. Combination of modern design with retro elements. Its culinary character is authentically Greek and distinguished for it's simplicity and dynamism.",
-            img: 'https://www.to-manitari.gr/sys/timthumb.php?src=uploads/1_1541684133_f08f9063c61145657eb3dcd4f31f9c3a_82_1540459052_efaee9e8ff5128639e2eb863f7f2fa53_44657160_273261096640229_5663590618081787904_n.jpg&w=960&h=540&q=90&zc=3',
-            img2:"https://www.to-manitari.gr/sys/timthumb.php?src=uploads/54_1598634555_cdc679bebbe282e170ab6fe0dca8445e_0.jpg&w=1280&h=720&q=90&zc=3",
+            img: 'https://www.e-restaurants.gr/image/6958-to-manitari-kalamaria-thessaloniki.jpg',
+            img2:"https://d1jpzjn3hhxcck.cloudfront.net/stores/images/QH7mCJ8zjT4PEMcF2sXOQfaICxVflhhLjnBQQBNCFc1xYvRDhykV9MUOChsuOe4hJcxwLlBr3u9.jpg",
             img3:"https://d1jpzjn3hhxcck.cloudfront.net/stores/images/iKRXpBvPqSOZcmdjixC8Re8xWBsN5qKQ1I5DVZ9591JT6Bie6mwmQhb2EX69OWnYb5nMvnAnsCO.jpg",
             location: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12118.821263657695!2d22.949548!3d40.5922596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83ed4597389e1%3A0xb8e2b247ab0557bb!2zzqTOvyDOnM6xzr3Ouc-EzqzPgc65!5e0!3m2!1sel!2sgr!4v1677949628303!5m2!1sel!2sgr"
           },

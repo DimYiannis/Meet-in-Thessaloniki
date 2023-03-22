@@ -84,7 +84,7 @@ export default {
             id: 'Louloudadika - Flower Markets',
             name: 'Louloudadika - Flower Markets',
             info: "The market is known for its vibrant and colorful displays of flowers, plants, and other garden-related items, and is a popular destination for both locals and tourists. Visitors to the Flower Market can expect to find an array of different flowers and plants, including traditional Greek herbs and spices, colorful bouquets, and exotic species from around the world. The market is particularly popular during the spring and summer months, when the weather is warm and sunny, and the flowers are in full bloom.",
-            img: 'https://cdn-bmdmc.nitrocdn.com/OHgCagDEdiMpWEWgRJvEsvCDUZHbzBwu/assets/static/optimized/rev-b0e8006/wp-content/uploads/2021/06/DSC_0011-Copy.jpg',
+            img: 'https://parallaximag.gr/wp-content/uploads/2021/04/%CE%BB%CE%BF%CF%85%CE%BB%CE%BF%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%B1.jpg',
             location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12111.001025555706!2d22.9402973!3d40.63538935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a839081f04ad1d%3A0xb56ff8960e625b4f!2zzpvOv8-FzrvOv8-FzrTOrM60zrnOus6xLCDOmM61z4PPg86xzrvOv869zq_Ous63IDU0NiAyNA!5e0!3m2!1sel!2sgr!4v1677746107194!5m2!1sel!2sgr"
           },
           {
