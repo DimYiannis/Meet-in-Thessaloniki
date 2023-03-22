@@ -68,7 +68,7 @@
 /*navbar*/
 
 .header {
-    @apply bg-[#f1f1f1] drop-shadow-md z-10 w-[98vw]
+    @apply bg-[#f1f1f1] drop-shadow-md z-10 w-[100vw]
 }
 
  .btn {
