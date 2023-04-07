@@ -1,7 +1,7 @@
 <template>
   <Plaisio v-for="data in data" :key="data.id" :id="data.id" 
     :name="data.name" :info="data.info"
-    class="grid gap-5">
+    class="grid gap-5 ">
 
     <template #img>
       <div class="left-0 w-[98vw] tablet:h-[500px]">

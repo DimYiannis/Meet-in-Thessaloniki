@@ -1,5 +1,5 @@
 <template>
-
+    
     
     <header class="header">
             <nav class="navbar">
@@ -49,11 +49,11 @@
             </nav>    
     </header>
     
-
     <div class="text-black
-    h-screen w-[100vw] ">
-    <slot/>
+     w-[100vw] ">
+        <slot/>
     </div>
+
 </template>
 
 <script setup lang="ts">

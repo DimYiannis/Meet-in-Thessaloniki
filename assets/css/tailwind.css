@@ -21,6 +21,7 @@
     border: 3px solid var(--primary);
   }
 @tailwind components;
+  
 @tailwind utilities;
 
 :root {
@@ -34,11 +35,13 @@
                 width: 100%;
                 overflow-x: hidden;
                 position: relative;
+                height: 100%;
         }
 }
 
 
 @layer components {
+
     .img {
         @apply w-full h-full rounded-2xl
         shadow-md
@@ -73,8 +76,8 @@
 }
 
 .eventspage {
-    @apply grid w-[95vw] p-5 tablet:w-[98vw] h-screen pb-2
-    grid-cols-1 grid-rows-4 gap-4
+    @apply grid w-[95vw] p-5 tablet:w-[98vw] h-fit pb-2
+    grid-cols-1 grid-rows-4 gap-4 
     tablet:grid-cols-2 tablet:grid-rows-3 laptop:grid-rows-2
 }
 
