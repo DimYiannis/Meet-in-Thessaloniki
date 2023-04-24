@@ -9,11 +9,11 @@
         <img class="object-cover w-screen tablet:h-[350px]" :src="place.img"/>
            
 
-          <span class="flex rounded-full z-10 relative bottom-20 left-5 
-          bg-[#383836] w-fit px-5 opacity-70 
+          <span class=" rounded-full z-10 relative bottom-20 left-5 
+          bg-[#383836] w-fit px-5 opacity-70 block py-5
             hover:opacity-90 hover:scale-105 duration-500">
 
-            <div class="relative self-center h-fit text-white w-fit">
+            <div class="relative self-center h-max text-white w-max">
 
               <h1 class="mb-6 text-lg tablet:text-2xl w-max">
                 {{place.name}}

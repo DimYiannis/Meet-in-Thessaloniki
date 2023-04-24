@@ -39,7 +39,7 @@
               <swiper-slide>
                 <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1926.0369131756445!2d22.970840124562198!3d40.62766432723472!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a838f5ea555555%3A0x72cc2b13c21b1443!2zzpjOrc6xz4TPgc6_IM6TzrfPgg!5e0!3m2!1sel!2sgr!4v1678106286700!5m2!1sel!2sgr" 
-                    width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
                 
@@ -77,10 +77,10 @@
               </swiper-slide>
   
               <swiper-slide>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12112.388951338351!2d22.9727161!3d40.6277375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a838f5ea555555%3A0x72cc2b13c21b1443!2zzpjOrc6xz4TPgc6_IM6TzrfPgg!5e0!3m2!1sel!2sgr!4v1678262824346!5m2!1sel!2sgr"
-                width="400" height="200" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12110.587436553073!2d22.9661557!3d40.6376693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a8385a9d823e35%3A0x46b7c504722af094!2zzpjOrc6xz4TPgc6_IM6UzqzPg86_z4XPgg!5e0!3m2!1sel!2sgr!4v1682325305194!5m2!1sel!2sgr"
+                  width="600" height="200" style="border:1;" allowfullscreen="" loading="lazy">
+              </iframe>
               </swiper-slide>
-              
             </swiper>
          
         </div>
@@ -137,7 +137,7 @@
   
               <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg ">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3027.737229277133!2d22.936317240475468!3d40.63567660875378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83909f1c34ed1%3A0xc97141dc5a19ac1d!2sEightball!5e0!3m2!1sel!2sgr!4v1678111446242!5m2!1sel!2sgr" 
-                width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
               </swiper-slide>
               
@@ -176,7 +176,7 @@
 
                         <swiper-slide>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6056.401727008453!2d22.957964996295146!3d40.625452051491195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a838fc149c9f29%3A0x2b462f2c3d04a985!2sWE!5e0!3m2!1sel!2sgr!4v1678112377046!5m2!1sel!2sgr" 
-                            width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
                         </swiper-slide>
           
@@ -234,15 +234,9 @@
               </swiper-slide>
   
               <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg ">
-                
-                  
-                    <div src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12109.516636390312!2d22.9089461!3d40.6435717!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83981b2e6dc7d%3A0xcb2570cfa0bafd52!2sBlock%2033!5e0!3m2!1sel!2sgr!4v1678113727124!5m2!1sel!2sgr" 
-                    width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                    </div>
-                  
-                  
-                
-                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12109.516636390312!2d22.9089461!3d40.6435717!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83981b2e6dc7d%3A0xcb2570cfa0bafd52!2sBlock%2033!5e0!3m2!1sel!2sgr!4v1678113727124!5m2!1sel!2sgr" 
+                  width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
               </swiper-slide>
               
             </swiper>
