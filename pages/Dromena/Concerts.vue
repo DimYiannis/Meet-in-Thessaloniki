@@ -16,7 +16,8 @@
           <h1 class="font-semibold text-lg mobile:text-2xl tablet:text-4xl laptop:text-4xl container" >
             Theatre of the Earth (Theatro Gis)</h1>
                           
-            <swiper :pagination="{clickable: true,}" :modules="modules" 
+            <swiper :pagination="{clickable: true,}" 
+            :modules="modules" 
             class="w-full 
             laptop:w-[450px] desktop:w-[650px] 
             h-[200px]">
@@ -118,7 +119,7 @@
             laptop:w-[450px] desktop:w-[650px] 
             h-[200px]">
               
-                <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl laptop:lg">
+                <swiper-slide class="pt-5 text-sm mobile:text-base tablet:text-xl ">
                 
                 8ball Club is a popular live music venue and nightclub located in the heart of Thessaloniki. 
                 The club has a long history of hosting live music performances from a variety of genres, 
