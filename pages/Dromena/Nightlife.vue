@@ -13,14 +13,9 @@
           bg-[#383836] w-fit px-5 opacity-70 
           hover:opacity-90 hover:scale-105 duration-500">
           <div class="relative self-center h-fit text-white w-fit">
-            <h1 class="mb-6 text-lg tablet:text-2xl 
-              laptop:text-4xl  w-max">
-              {{data.name}}
-            </h1>
-            <h2 class="absolute top-6 mobile:top-8 laptop:top-10 laptop:text-base
-              text-xs w-max">
-              Thessaloniki, GR
-            </h2>              
+            <h1 class="my-1 text-base tablet:text-xl w-max">
+              {{data.name}} <br> Thessaloniki, GR
+            </h1>            
           </div> 
         </span>                                                                                                                                                                                             
       </div>          

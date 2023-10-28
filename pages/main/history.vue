@@ -31,7 +31,7 @@
     </template>
 
     <template #location>
-      <img class=" h-[500px] " 
+      <img class="lgdesk:w-[450px] h-[500px] " 
         :src="museum.img2" />        
     </template>
   </Blog>
@@ -52,7 +52,7 @@ export default {
             name: 'The beginning',
             info: 'Thessaloniki is a city in northern Greece with a rich and diverse history. It was founded in 315 BC by King Cassander of Macedon and was named after his wife, Thessaloniki, who was the half-sister of Alexander the Great. Throughout its history, Thessaloniki has been ruled by various empires, including the Romans, Byzantines, Ottomans, and Greeks.',
             img: "https://www.worldhistory.org/img/r/p/500x600/2966.jpg?v=1641399301",
-            img2: "http://shadowofthelion.com/wp-content/uploads/2016/08/Fashion-In-The-Ancient-Times.jpg"
+            img2: "https://www.davonnajuroe.com/wp-content/uploads/2014/05/alexander-and-mermaid.jpeg"
           },
           {
             id: ' Roman Period',
