@@ -12,7 +12,7 @@
             bg-[#383836] w-fit px-5 opacity-70 h-fit
             hover:opacity-90 hover:scale-105 duration-500">
             <div class="relative self-center h-fit text-white">
-              <h1 class="my-1 text-sm tablet:text-base  ">
+              <h1 class="my-1 text-sm tablet:text-base">
                 {{data.name}} <br> Thessaloniki, GR
               </h1>            
             </div> 
