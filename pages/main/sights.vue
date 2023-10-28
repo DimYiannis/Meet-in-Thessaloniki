@@ -18,7 +18,7 @@
           hover:scale-105 duration-500"
         >
           <div class="relative self-center h-fit text-white w-fit">
-            <h1 class="my-1 text-base tablet:text-xl w-max">
+            <h1 class="my-1 text-sm tablet:text-base w-max">
               {{ sight.name }} <br />
               Thessaloniki, GR
             </h1>
