@@ -1,62 +1,36 @@
 <template>
-    
-    <div class="blog">
-        
-        
-
-        <div class=" grid gap-3  
-        place-content-center h-full bg-[#aeb5b6]">
-                
-            <div class="place-items-center grid 
-            hover:scale-110 duration-500 mt-5">
-                <slot name="img">
-                    {{ img }}
-                </slot>
-
-            </div>
-                
-            <div class="text-gray-800 font-extralight text-2xl 
-            text-center bottom-0 relative z-10 ">
-               <slot name="name">
-                    {{ name }}
-                </slot> 
-            </div>
-                
-                
+  <div class="blog">
+    <div class="grid tablet-mx-0 tablet:grid-cols-2 
+      h-full ">
+      <div class="h-full grid">
+        <div class="grid h-full pt-5 tablet:pt-0">
+          <slot name="img">
+            {{ img }}
+          </slot>
         </div>
-            
-        <div class=" bg-[#2d2e30d3] grid place-content-center 
-        mobile:h-[400px] tablet:h-[500px]">
-
-            <slot name="info">
-                {{ info }}
-            </slot>
-                
-        </div>
-
         
-        
-        <div class="map grid gap-5 place-content-center 
-        tablet:col-span-2 laptop:col-span-1 ">
-        
-           
-           <slot name="location">
-               {{ location }}
-           </slot>
-       
-        </div>
+      </div>
 
-    </div>
-
+      <div
+        class="text-gray-800 font-extralight text-2xl text-center 
+        bottom-0 relative z-10 grid place-content-center"
+      >
+        <slot name="name">
+          {{ name }}
+        </slot>
+        
+        <slot name="info">
+        {{ info }}
+      </slot>
+      </div>
+    </div>      
+  </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {};
-    },
-   
-}
-
-
+  data() {
+    return {};
+  },
+};
 </script>
