@@ -50,7 +50,7 @@ export default {
           id: "The beginning",
           name: "The beginning",
           info: "Thessaloniki is a city in northern Greece with a rich and diverse history. It was founded in 315 BC by King Cassander of Macedon and was named after his wife, Thessaloniki, who was the half-sister of Alexander the Great. Throughout its history, Thessaloniki has been ruled by various empires, including the Romans, Byzantines, Ottomans, and Greeks.",
-          img: "https://www.worldhistory.org/img/r/p/500x600/2966.jpg?v=1641399301",
+          img: "https://curiosmos.com/wp-content/uploads/2022/05/Silhouette-of-Alexander-the-Great-Statue-scaled.jpg",
           img2: "https://www.davonnajuroe.com/wp-content/uploads/2014/05/alexander-and-mermaid.jpeg",
         },
         {
