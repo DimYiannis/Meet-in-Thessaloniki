@@ -11,12 +11,11 @@
       :name="data.name"
       :info="data.info"
     >
-      <template #img>
+    <template #img>
         <div class="place-items-center grid">
           <img
-            class="rounded-lg tablet:rounded-r-3xl w-ful mobile:w-[400px] h-[200px]
-                tablet:w-[300px] tablet:h-[300px] 
-                lgdesk:w-[350px] lgdesk:h-[350px]"
+            class="rounded-lg tablet:rounded-r-3xl w-full mobile:w-[400px] 
+            h-[200px] tablet:w-full tablet:h-[400px]"
             :src="data.img"
           />
         </div>
@@ -25,9 +24,8 @@
       <template #img2>
         <div class="place-items-center grid">
           <img
-          class="rounded-lg tablet:rounded-r-3xl w-ful mobile:w-[400px] h-[200px]
-                tablet:w-[300px] tablet:h-[300px] 
-                lgdesk:w-[350px] lgdesk:h-[350px]"
+            class="rounded-lg tablet:rounded-r-3xl w-full mobile:w-[400px] 
+            h-[200px] tablet:w-full tablet:h-[400px]"
             :src="data.img2"
           />
         </div>
@@ -35,10 +33,9 @@
       <template #img3>
         <div class="place-items-center grid">
           <img
-          class="rounded-lg tablet:rounded-r-3xl w-ful mobile:w-[400px] h-[200px]
-                tablet:w-[300px] tablet:h-[300px] 
-                lgdesk:w-[350px] lgdesk:h-[350px]"
-            :src="data.img3"
+          class="rounded-lg tablet:rounded-r-3xl w-full mobile:w-[400px] 
+            h-[200px] tablet:w-full tablet:h-[400px]"            
+          :src="data.img3"
           />
         </div>
       </template>
@@ -46,9 +43,8 @@
         <div class="place-items-center grid">
           <iframe
             :src="data.location"
-            class="rounded-lg tablet:rounded-r-3xl w-ful mobile:w-[400px] h-[200px]
-              tablet:w-[300px] tablet:h-[300px] 
-              lgdesk:w-[350px] lgdesk:h-[350px]"
+            class="rounded-lg tablet:rounded-r-3xl w-full mobile:w-[400px] h-[200px]
+              tablet:w-full tablet:h-[400px]"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
