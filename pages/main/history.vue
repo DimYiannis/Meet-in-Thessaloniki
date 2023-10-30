@@ -4,7 +4,7 @@
       <p>#History_skg</p>
     </div>
 
-    <Blog
+    <Slider2
       v-for="museum in museums"
       :key="museum.id"
       :id="museum.id"
@@ -21,6 +21,16 @@
         />
         </div>
       </template>
+      <template #img2>
+        <div class="place-items-center grid">
+          <img
+            class="rounded-lg tablet:rounded-r-3xl w-ful mobile:w-[400px] 
+            h-[200px] tablet:w-[300px] tablet:h-[300px] lgdesk:w-[350px] 
+            lgdesk:h-[350px]"
+            :src="museum.img2"
+          />
+        </div>
+      </template>
 
       <template #name>
         <div class="font-semibold">
@@ -34,7 +44,7 @@
           {{ museum.info }}
         </p>
       </template>
-    </Blog>
+    </Slider2>
   </div>
 </template>
 
