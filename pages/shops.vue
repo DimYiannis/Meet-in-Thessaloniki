@@ -6,7 +6,7 @@
                 <h1 class="font-bold text-2xl mobile:text-4xl 
                 tablet:text-7xl laptop:text-7xl pb-5">
                 Agora</h1>
-                <p class="text:lg mobile:text-xl tablet:text-2xl">ἀγορά (agorá, “assembly, place of assembly, market”), 
+                <p class="text:lg mobile:text-xl tablet:text-2xl font-light">ἀγορά (agorá, “assembly, place of assembly, market”), 
                 from ἀγείρω (ageírō, “to gather”)</p>
             </div>
         </div>
