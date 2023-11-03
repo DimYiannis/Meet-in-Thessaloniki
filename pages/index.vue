@@ -60,7 +60,7 @@
                 </Item>
             </NuxtLink>
         </div> 
-
+        
     </div>    
 </template>
 

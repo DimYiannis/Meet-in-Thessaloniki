@@ -1,7 +1,7 @@
 <template>
   <div class="grid gap-0.5 bg-[#2A2D31]">
     <div class="text-center text-white text-3xl py-2 font-semibold">
-      <p>#Shopping_streets</p>
+      <h2 @mouseover="hyperplexed" data-value="#Shopping_streets">#Shopping_streets</h2>
     </div>
 
     <Blog
@@ -89,6 +89,33 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    hyperplexed() {
+      const letters = "#_ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+      document.querySelector("h2").onmouseover = (event) => {
+        let iterations = 0;
+
+        const interval = setInterval(() => {
+          event.target.innerText = event.target.innerText
+            .split("")
+            .map((letter, index) => {
+              if (index < iterations) {
+                return event.target.dataset.value[index];
+              }
+
+              return letters[Math.floor(Math.random() * 26)];
+            })
+            .join("");
+
+          if (iterations >= event.target.dataset.value.length) {
+            clearInterval(interval);
+          }
+          iterations += 1 / 3;
+        }, 30);
+      };
+    },
   },
 };
 </script>

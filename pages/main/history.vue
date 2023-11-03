@@ -1,7 +1,8 @@
 <template>
   <div class="grid gap-0.5 bg-[#2A2D31]">
-    <div class="text-center text-white text-3xl py-2 font-semibold">
-      <p>#History_skg</p>
+    <div  class="justify-center text-white text-3xl py-2 font-semibold flex">
+      <h2 @mouseover="hyperplexed" data-value="#History_skg"
+      class="w-fit">#History_skg</h2>
     </div>
 
     <Slider2
@@ -14,19 +15,15 @@
       <template #img>
         <div class="place-items-center grid">
           <img
-          class="rounded-lg tablet:rounded-l-3xl w-full mobile:w-[400px] 
-          h-[200px] tablet:w-full tablet:h-[400px] lgdesk:w-[350px] 
-          lgdesk:h-[350px]"
-          :src="museum.img"
-        />
+            class="rounded-lg tablet:rounded-l-3xl w-full mobile:w-[400px] h-[200px] tablet:w-full tablet:h-[400px] lgdesk:w-[350px] lgdesk:h-[350px]"
+            :src="museum.img"
+          />
         </div>
       </template>
       <template #img2>
         <div class="place-items-center grid">
           <img
-            class="rounded-lg tablet:rounded-r-3xl w-full mobile:w-[400px] 
-            h-[200px] tablet:w-full tablet:h-[400px] lgdesk:w-[350px] 
-            lgdesk:h-[350px]"
+            class="rounded-lg tablet:rounded-r-3xl w-full mobile:w-[400px] h-[200px] tablet:w-full tablet:h-[400px] lgdesk:w-[350px] lgdesk:h-[350px]"
             :src="museum.img2"
           />
         </div>
@@ -39,8 +36,7 @@
       </template>
 
       <template #info>
-        <p class=" text-center mx-10 text-xs laptop:text-base
-        font-semibold">
+        <p class="text-center mx-10 text-xs laptop:text-base font-semibold">
           {{ museum.info }}
         </p>
       </template>
@@ -86,6 +82,33 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    hyperplexed() {
+      const letters = "#ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+      document.querySelector("h2").onmouseover = (event) => {
+        let iterations = 0;
+
+        const interval = setInterval(() => {
+          event.target.innerText = event.target.innerText
+            .split("")
+            .map((letter, index) => {
+              if (index < iterations) {
+                return event.target.dataset.value[index];
+              }
+
+              return letters[Math.floor(Math.random() * 26)];
+            })
+            .join("");
+
+          if (iterations >= event.target.dataset.value.length) {
+            clearInterval(interval);
+          }
+          iterations += 1 / 3;
+        }, 30);
+      };
+    },
   },
 };
 </script>
