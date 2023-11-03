@@ -55,7 +55,7 @@
       </template>
 
       <template #name>
-        <h1 class="font-semibold">{{ data.name }}</h1>
+        <h1>{{ data.name }}</h1>
       </template>
 
       <template #info>

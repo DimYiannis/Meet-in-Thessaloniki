@@ -1,8 +1,9 @@
 <template>
   <div class="grid gap-0.5 bg-[#2A2D31]">
-    <div  class="justify-center text-white text-3xl py-2 font-semibold flex">
-      <h2 @mouseover="hyperplexed" data-value="#History_skg"
-      class="w-fit">#History_skg</h2>
+    <div class="justify-center text-white text-3xl py-2 font-semibold flex">
+      <h2 @mouseover="hyperplexed" data-value="#History_skg" class="w-fit">
+        #History_skg
+      </h2>
     </div>
 
     <Slider2

@@ -1,7 +1,7 @@
 <template>
   <div class="grid gap-0.5 bg-[#2A2D31]">
-    <div class="text-center text-white text-3xl py-2 font-semibold">
-      <h2 @mouseover="hyperplexed" data-value="#Shopping_streets">#Shopping_streets</h2>
+    <div class="justify-center text-white text-3xl py-2 font-semibold flex">
+      <h2 class="w-fit" @mouseover="hyperplexed" data-value="#Shopping_streets">#Shopping_streets</h2>
     </div>
 
     <Blog
