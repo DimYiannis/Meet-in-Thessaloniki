@@ -1,4 +1,4 @@
-Lets meet in Thessaloniki!
+###Lets meet in Thessaloniki!
 
 A minimal website dedicated to the beautifull city of Thessaloniki.
 The main purpose of this site is to introduce some options for tourists that are just bypassers or have some hours at their disposal to enjoy and see the city.
