@@ -2,6 +2,7 @@
     <div class="restaurantpage">
         
         <div class="grid tablet:col-span-2 laptop:col-span-1 text-center  ">
+           
             <h1 class="font-bold text-xl mobile:text-4xl 
             tablet:text-7xl laptop:text-6xl">
             Thermopolia</h1>
