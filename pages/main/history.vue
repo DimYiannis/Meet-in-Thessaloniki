@@ -78,7 +78,7 @@ export default {
           id: "Today",
           name: "Today",
           info: "Today, Thessaloniki is a vibrant and dynamic city with a rich cultural heritage, and is home to numerous historic landmarks, museums, and art galleries. It is also a major center for business, education, and tourism, and is known for its lively nightlife and culinary scene.",
-          img: "https://www.greeceinvestorguide.com/wp-content/uploads/2019/07/Thessaloniki-min-780x405.jpg",
+          img: "https://zelajet.com/wp-content/uploads/2023/02/THESSALONIKI-1.jpg.webp",
           img2: "https://images.unsplash.com/photo-1618524921640-d29538c14229?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
         },
       ],
