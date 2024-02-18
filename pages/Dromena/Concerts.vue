@@ -14,7 +14,7 @@
         <!--info-->
         <div class="pr-5 grid place-content-center">
           <h1 class="font-semibold text-lg mobile:text-2xl tablet:text-4xl laptop:text-4xl container" >
-            Theatre of the Earth (Theatro Gis)</h1>
+            Theatro Gis</h1>
                           
             <swiper :pagination="{clickable: true,}" 
             :modules="modules" 
@@ -59,7 +59,7 @@
         <div class="pr-5 grid place-content-center">
   
           <h1 class="font-semibold text-lg mobile:text-2xl tablet:text-4xl">
-            Dassous Theatre (Forest Theatre)</h1>
+            Theatro Dassous</h1>
   
           <swiper :pagination="{clickable: true,}" :modules="modules" 
           class="w-full 
@@ -104,7 +104,7 @@
 
           <img class="rounded-md tablet:w-[750px] laptop:w-[580px] desktop:w-[580px] 
           lgdesk:w-[750px] tablet:h-[310px] grayscale"
-          src="https://www.lifo.gr/sites/default/files/styles/lifo_lightbox_open/public/articles/2020-10-29/img_8300.jpg?itok=WXrrgSOk">
+          src="https://www.lifo.gr/sites/default/files/styles/max_1920x1920/public/articles/2020-10-29/img_8300.jpg?itok=yzM4_915">
         </div>
   
         <!--info-->
