@@ -100,8 +100,8 @@ export default {
           id: "Duck Private Cheffing",
           name: "Duck Private Cheffing",
           info: "Rustic character, carefull homey decoration, open kitchen and cosiness. It is private, with a few tables aimed at exactly that, it is an excellent example of haute cuisine. In its menu you will find, traditional and European, gourmet tastes. Identified as a place of fine-dining and casual experience.",
-          img: "https://www.gastronomos.gr/wp-content/uploads/2021/03/b_duck_dsc_3605_jm.jpg",
-          img2: "https://enka.gr/wp-content/uploads/2019/09/IMG_0629.jpg",
+          img: "https://enka.gr/wp-content/uploads/2019/09/IMG_0629.jpg",
+          img2: "https://www.gastronomos.gr/wp-content/uploads/2021/03/b_duck_dsc_3605_jm.jpg",
           img3: "https://media-cdn.tripadvisor.com/media/photo-s/0c/33/c1/47/duck-private-cheffing.jpg",
           location:
             "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12124.340293605448!2d22.98181492006834!3d40.56179852920003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a839ac41739ef1%3A0x297acadc44e9a6c7!2sDuck!5e0!3m2!1sel!2sgr!4v1677949356648!5m2!1sel!2sgr",
@@ -120,9 +120,9 @@ export default {
           id: "Dome Real Cuisine",
           name: "Dome Real Cuisine",
           info: "The Nikopolis hotel wishes to highlight gourmet cuisine in its most Greek yet simple version. Dome aspires to move away from unnecessary flourishes and give you haute gastronomy emerging from any excesses. At Dome Real Cuisine you have to explore the world of meat, as the restaurant even has its own aging room, while the seafood options are not missing from the list, both on the appetizer card and on the main menu.",
-          img: "https://www.dome-restaurant.com/gallery/Images/IMG_0789.jpg",
-          img2: "https://www.dome-restaurant.com/gallery/Images/IMG_0794.jpg",
-          img3: "https://www.dome-restaurant.com/sites/domerestaurant/gms.include/resize.php?src=https://www.dome-restaurant.com/gallery/Images/gallery/Copy-of-IMG_7206LR.jpg&w=555&h=518&zc=1",
+          img: "https://flaginlife.gr/wp-content/uploads/2023/06/1b_720.jpg",
+          img2: "https://media-cdn.tripadvisor.com/media/photo-s/0e/71/f5/40/dome-real-cuisine.jpg",
+          img3: "https://media-cdn.tripadvisor.com/media/photo-s/0e/71/f3/9f/dome-real-cuisine.jpg",
           location:
             "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12126.617785217146!2d22.990143!3d40.5492229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83f783d42adb9%3A0xf1dadffe67597817!2sDOME%20Real%20Cuisine!5e0!3m2!1sel!2sgr!4v1677949805231!5m2!1sel!2sgr",
         },
