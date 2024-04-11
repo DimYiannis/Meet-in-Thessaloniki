@@ -104,7 +104,7 @@
 /*navbar*/
 
 .header {
-    @apply bg-[#f1f1f1] drop-shadow-md z-10 w-screen
+    @apply bg-transparent drop-shadow-md z-10 w-screen
 }
 
  .btn {
